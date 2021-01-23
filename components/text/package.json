@@ -26,11 +26,17 @@
     "@pixeen/reset": "^0.0.33"
   },
   "devDependencies": {
-    "goober": "^2.0.28"
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "goober": "^2.0.28",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "peerDependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
   },
   "babel": {
     "extends": "../../babel.config.js"
