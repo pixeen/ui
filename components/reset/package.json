@@ -22,13 +22,6 @@
   "main": "dist/index",
   "types": "dist/index",
   "license": "MIT",
-  "keywords": [
-    "react",
-    "typescript",
-    "ui",
-    "components",
-    "library"
-  ],
   "files": [
     "dist",
     "README.md"

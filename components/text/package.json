@@ -26,13 +26,6 @@
     "dist",
     "README.md"
   ],
-  "keywords": [
-    "react",
-    "typescript",
-    "ui",
-    "components",
-    "library"
-  ],
   "scripts": {
     "clean": "rimraf dist -rf",
     "type-check": "tsc --noEmit",
