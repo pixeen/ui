@@ -4,9 +4,10 @@
     "rootDir": "src",
     "outDir": "dist",
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true
   },
   "include": [
     "src/**/*"
-  ],
+  ]
 }

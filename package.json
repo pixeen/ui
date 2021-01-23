@@ -5,12 +5,10 @@
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "license": "MIT",
   "scripts": {
-    "clean": "yarn clean:lerna && yarn clean:node && yarn clean:dist && yarn clean:ts",
+    "clean": "yarn clean:lerna && yarn clean:node",
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rm node_modules -rf",
-    "clean:dist": "lerna exec -- rm -rf dist",
-    "clean:ts": "lerna exec -- rm -rf *.tsbuildinfo",
-    "build": "yarn clean:dist && yarn clean:ts && lerna run build --stream",
+    "build": "lerna run build --stream",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint './components/**/*.{ts,tsx}' --quiet --fix",
     "postinstall": "update-ts-references"

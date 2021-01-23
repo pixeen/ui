@@ -5,10 +5,7 @@
     "module": "commonjs",
     "target": "esnext",
     "moduleResolution": "Node",
-    "emitDeclarationOnly": true,
     "strict": true,
-    "sourceMap": true,
-    "isolatedModules": true
   },
   "exclude": [
     "node_modules",
