@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.build.json",
+    "references": [
+    {
+      "path": "../reset/tsconfig.build.json"
+    }
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [
+    "./src"
+  ]
+}
