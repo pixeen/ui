@@ -17,7 +17,7 @@
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx --source-maps inline",
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md",
     "prepublishOnly": "yarn build && yarn build:readme"
-  }
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
