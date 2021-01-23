@@ -1,8 +1,8 @@
 # Welcome to @pixeen/reset 👋
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+[![Version](https://img.shields.io/npm/v/@pixeen/reset.svg)](https://www.npmjs.com/package/@pixeen/reset)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> Pixeen UI Rest Component
+Pixeen UI Rest Component
 
 ## Author
 

@@ -24,7 +24,7 @@
 <% } -%>
 <% if (projectDescription) { -%>
 
-> <%= projectDescription %>
+<%= projectDescription %>
 <% } -%>
 <% if (projectHomepage) { -%>
 

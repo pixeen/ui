@@ -1,8 +1,8 @@
 # Welcome to @pixeen/text 👋
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+[![Version](https://img.shields.io/npm/v/@pixeen/text.svg)](https://www.npmjs.com/package/@pixeen/text)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> Pixeen UI Text Component
+Pixeen UI Text Component
 
 ## Author
 
