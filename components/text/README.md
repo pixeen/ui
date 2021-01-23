@@ -1,7 +1,3 @@
 # @pixeen/text
 
-Pixeen UI Text Component
-
-This project is [MIT](https://github.com/pixeen/ui/blob/master/LICENSE) licensed.
-
 Copyright © 2021 [Jeroen Gerits](https://github.com/pixeen).
