@@ -1,9 +1,15 @@
 {
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@pixeen/*": [
+        "components/*/src"
+      ]
+    },
     "jsx": "react",
-    "noEmit": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "references": [
     {

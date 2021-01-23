@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { setup, styled } from 'goober';
-import Reset from '../../reset/src';
+import Reset from '@pixeen/reset';
 
 setup(React.createElement);
 

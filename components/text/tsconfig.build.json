@@ -1,17 +1,12 @@
 {
   "extends": "../../tsconfig.build.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "emitDeclarationOnly": true
+    "rootDir": "src",
+    "outDir": "dist",
+    "jsx": "react",
+    "esModuleInterop": true
   },
-  "references": [
-    {
-      "path": "../reset/tsconfig.build.json"
-    }
-  ],
   "include": [
-    "./src"
-  ]
+    "src/**/*"
+  ],
 }
-

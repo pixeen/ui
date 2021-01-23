@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
+    "composite": true,
+    "declaration": true,
     "module": "commonjs",
     "target": "esnext",
+    "moduleResolution": "Node",
+    "emitDeclarationOnly": true,
     "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "jsx": "react",
-    "declaration": true,
-    "composite": true
-  }
+    "sourceMap": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+
 }
