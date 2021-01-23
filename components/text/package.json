@@ -5,11 +5,11 @@
   "description": "Pixeen UI Text",
   "scripts": {
     "clean": "rm dist -rf && rm -rf tsconfig.build.tsbuildinfo",
-    "build": "yarn clean && yarn build:types && yarn build:js && yarn build:readme",
+    "build": "yarn clean && yarn build:types && yarn build:js",
     "build:types": "tsc -b tsconfig.build.json",
-    "build:js": "babel src --out-dir dist --root-mode upward --extensions .ts,.tsx --source-maps inline",
+    "build:js": "babel src --out-dir dist --extensions .ts,.tsx --source-maps inline",
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build && yarn build:readme"
   },
   "engines": {
     "npm": "~6.14.10",
