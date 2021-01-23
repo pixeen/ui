@@ -3,6 +3,13 @@
   "version": "0.0.34",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text",
+  "keywords": [
+    "pixeen",
+    "react",
+    "typescript",
+    "ui",
+    "component"
+  ],
   "scripts": {
     "clean": "rimraf dist -rf && rimraf -rf tsconfig.build.tsbuildinfo",
     "build": "yarn clean && yarn build:types && yarn build:js",
@@ -53,13 +60,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pixeen/ui.git"
-  },
-  "keywords": [
-    "pixeen",
-    "react",
-    "typescript",
-    "ui",
-    "component"
-  ],
-  "gitHead": "c91315db890daad35e130dabb87b447c9dc7ce51"
+  }
 }

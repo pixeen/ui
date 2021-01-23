@@ -5,16 +5,17 @@
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "license": "MIT",
   "scripts": {
-    "clean": "yarn clean:lerna && yarn clean:node",
+    "clean": "yarn clean:lerna && yarn clean:logs && yarn clean:node",
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rimraf node_modules -rf",
+    "clean:logs": "rimraf **/*.log -rf",
     "build": "lerna run build --stream",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint './components/**/*.{ts,tsx}' --quiet --fix",
     "postinstall": "update-ts-references"
   },
   "repository": {
-    "url": "https://github.com/pixeen/ui"
+    "url": "git+https://github.com/pixeen/ui.git"
   },
   "workspaces": [
     "components/**"
@@ -58,5 +59,11 @@
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "description": "> Component Library",
+  "bugs": {
+    "url": "https://github.com/pixeen/ui/issues"
+  },
+  "homepage": "https://github.com/pixeen/ui#readme",
+  "main": ".eslintrc.js"
 }

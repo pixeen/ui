@@ -3,6 +3,13 @@
   "version": "0.0.34",
   "name": "@pixeen/reset",
   "description": "Pixeen UI Reset",
+  "keywords": [
+    "pixeen",
+    "react",
+    "typescript",
+    "ui",
+    "component"
+  ],
   "scripts": {
     "clean": "rimraf dist -rf && rimraf -rf tsconfig.build.tsbuildinfo",
     "build": "yarn clean && yarn build:types && yarn build:js",
@@ -22,6 +29,10 @@
     "dist",
     "README.md"
   ],
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -38,29 +49,13 @@
   "babel": {
     "extends": "../../babel.config.js"
   },
-  "author": {
-    "name": "Jeroen Gerits",
-    "email": "jeroen@gerits.email"
-  },
+  "author": "Jeroen Gerits <jeroen@gerits.email>",
   "bugs": {
-    "url  ": "https://github.com/pixeen/ui/issues",
     "email": "jeroen@gerits.email"
   },
   "homepage": "https://github.com/pixeen/ui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixeen/ui.git"
-  },
-  "keywords": [
-    "pixeen",
-    "react",
-    "typescript",
-    "ui",
-    "component"
-  ],
-  "gitHead": "c91315db890daad35e130dabb87b447c9dc7ce51",
-  "dependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0"
+    "url": "git+https://github.com/pixeen/ui.git"
   }
 }
