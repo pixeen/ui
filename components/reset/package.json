@@ -1,7 +1,7 @@
 {
   "version": "0.0.27",
   "name": "@pixeen/reset",
-  "description": "Pixeen UI Rest Component",
+  "description": "Pixeen UI Reset Component",
   "author": {
     "name": "Jeroen Gerits",
     "email": "jeroen@gerits.email"

@@ -1,6 +1,6 @@
-# <%= projectName %>
+# <%= projectDescription %>
 
-**<%= projectDescription %>**
+**<%= projectName %>**
 
 This project is **<%= licenseName %>** licensed.
 
