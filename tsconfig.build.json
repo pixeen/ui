@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "declaration": true,
-    "sourceMap": true,
     "target": "es5",
     "module": "esnext",
-    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
     "esModuleInterop": true,
+    "jsx": "react",
     "emitDeclarationOnly": true,
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,

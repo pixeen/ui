@@ -7,7 +7,7 @@
   "scripts": {
     "prestart": "yarn && lerna bootstrap",
     "start": "yarn build",
-    "clean": "yarn clean:lerna && yarn clean:logs && yarn clean:node && yarn start",
+    "clean": "yarn clean:lerna && yarn clean:logs && yarn clean:node",
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
