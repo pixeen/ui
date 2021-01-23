@@ -1,4 +1,4 @@
-# <%= projectName %> 👋
+# <%= projectName %>
 <% if (isProjectOnNpm) { -%>
 [![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
 <% } -%>
@@ -16,12 +16,14 @@
 <% if (isGithubRepos) { -%>
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](<%= repositoryUrl %>/graphs/commit-activity)
 <% } -%>
-<% if (licenseName) { -%>
-[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
-<% } -%>
 <% if (authorTwitterUsername) { -%>
 [![Twitter: <%= authorTwitterUsername %>](https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social)](https://twitter.com/<%= authorTwitterUsername %>)
 <% } -%>
+
+<% if (licenseName) { -%>
+[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
+<% } -%>
+
 <% if (projectDescription) { -%>
 
 <%= projectDescription %>
