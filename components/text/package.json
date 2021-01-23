@@ -52,5 +52,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pixeen/ui.git"
-  }
+  },
+  "gitHead": "9b4c457a7e3b890b4f8dc8147575990ca7a34d10"
 }

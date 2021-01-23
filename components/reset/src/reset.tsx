@@ -9,9 +9,11 @@ export interface ResetProperties {
 
 type Properties = ResetProperties;
 
-const StyledReset = styled('div')`
-  background: red;
-`;
+const StyledReset = styled('h1')(() => {
+  return {
+    backgroundColor: 'red',
+  };
+});
 
 const Reset: FC<Properties> = ({ children }: Properties) => {
   return <StyledReset>{children}</StyledReset>;
