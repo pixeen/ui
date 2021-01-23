@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text",
   "keywords": [
@@ -27,7 +27,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@pixeen/reset": "^0.0.38"
+    "@pixeen/reset": "^0.0.39"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
