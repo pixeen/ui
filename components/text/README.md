@@ -6,9 +6,11 @@
 
 Pixeen UI Text Component
 
+### 🏠 [Homepage](https://github.com/pixeen/ui)
+
 ## Author
 
-👤 **Jeroen Gerits <jeroen@gerits.email>**
+👤 **Jeroen Gerits**
 
 * GitHub: [@pixeen](https://github.com/pixeen)
 
@@ -19,7 +21,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Jeroen Gerits <jeroen@gerits.email>](https://github.com/pixeen).
+Copyright © 2021 [Jeroen Gerits](https://github.com/pixeen).
 
 This project is [MIT](https://github.com/pixeen/ui/blob/master/LICENSE) licensed.
 

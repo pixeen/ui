@@ -2,10 +2,14 @@
   "version": "0.0.7",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text Component",
-  "author": "Jeroen Gerits <jeroen@gerits.email>",
+  "author": {
+    "name": "Jeroen Gerits",
+    "email": "jeroen@gerits.email"
+  },
+  "homepage": "https://github.com/pixeen/ui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixeen/ui"
+    "url": "https://github.com/pixeen/ui.git"
   },
   "main": "dist/index",
   "types": "dist/index",
