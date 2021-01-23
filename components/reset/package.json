@@ -4,7 +4,7 @@
   "name": "@pixeen/reset",
   "description": "Pixeen UI Reset",
   "scripts": {
-    "clean": "rm dist -rf && rm -rf tsconfig.build.tsbuildinfo",
+    "clean": "rimraf dist -rf && rimraf -rf tsconfig.build.tsbuildinfo",
     "build": "yarn clean && yarn build:types && yarn build:js",
     "build:types": "tsc -b tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx --source-maps inline",
