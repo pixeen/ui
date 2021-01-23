@@ -3,6 +3,10 @@
   "name": "@pixeen/text",
   "description": "Pixeen UI Text Component",
   "author": "Jeroen Gerits <jeroen@gerits.email>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixeen/ui"
+  },
   "main": "dist/index",
   "types": "dist/index",
   "license": "MIT",

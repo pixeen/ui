@@ -1,4 +1,4 @@
-# Welcome to <%= projectName %> 👋
+# <%= projectName %> 👋
 <% if (isProjectOnNpm) { -%>
 [![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
 <% } -%>
