@@ -1,6 +1,6 @@
-# @pixeen/text
+# Pixeen UI Text Component
 
-Pixeen UI Text Component
+@pixeen/text
 
 This project is **MIT** licensed.
 
