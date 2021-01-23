@@ -5,7 +5,7 @@ const Text: FC = () => {
   return (
     <>
       <Reset>
-        <div>TEXT</div>
+        <div>123456</div>
       </Reset>
     </>
   );

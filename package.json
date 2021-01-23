@@ -12,6 +12,7 @@
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
     "build": "lerna run build --stream",
+    "watch": "lerna run watch --stream --parallel",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint './components/**/*.{ts,tsx}' --quiet --fix",
     "postinstall": "update-ts-references"
@@ -20,7 +21,8 @@
     "url": "git+https://github.com/pixeen/ui.git"
   },
   "workspaces": [
-    "components/**"
+    "components/**",
+    "examples/**"
   ],
   "devDependencies": {
     "@babel/cli": "^7.12.10",

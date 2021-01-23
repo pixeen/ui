@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.40",
   "name": "@pixeen/reset",
-  "description": "Pixeen UI Reset - Globally resets the CSS styles.",
+  "description": "Pixeen UI Reset - Locally resets the CSS styles.",
   "keywords": [
     "pixeen",
     "react",
@@ -14,6 +14,7 @@
   "scripts": {
     "clean": "rimraf dist -rf && rimraf -rf tsconfig.build.tsbuildinfo",
     "prebuild": "yarn clean",
+    "watch": "yarn build:js --watch",
     "build": "yarn build:types && yarn build:js",
     "build:types": "tsc -b tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx",
