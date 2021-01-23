@@ -93,9 +93,6 @@ Contributions, issues and feature requests are welcome!
 Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
 <% } -%>
 
-[![support us](https://img.shields.io/badge/become-a patreon%20us-orange.svg?cacheSeconds=2592000)](https://www.patreon.com/<%= authorPatreonUsername %>)
-<% } -%>
-
 <% if (licenseName && licenseUrl) { -%>
 
 ## 📝 License
@@ -108,3 +105,5 @@ This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
 <% } -%>
 
 <% if (authorPatreonUsername) { -%>
+[![support us](https://img.shields.io/badge/become-a patreon%20us-orange.svg?cacheSeconds=2592000)](https://www.patreon.com/<%= authorPatreonUsername %>)
+<% } -%>
