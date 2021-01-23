@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const Reset: FC = () => {
-  return <>RESET</>;
+  return <>RESETs</>;
 };
 
 export default Reset;

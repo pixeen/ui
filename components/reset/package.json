@@ -39,5 +39,6 @@
   },
   "babel": {
     "extends": "../../babel.config.js"
-  }
+  },
+  "gitHead": "c91315db890daad35e130dabb87b447c9dc7ce51"
 }
