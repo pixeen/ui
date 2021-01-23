@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text",
   "engines": {
@@ -22,7 +22,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@pixeen/reset": "^0.0.28",
+    "@pixeen/reset": "^0.0.29",
     "goober": "^2.0.28",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
