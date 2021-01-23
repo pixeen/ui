@@ -12,15 +12,6 @@
 ![Version](https://img.shields.io/badge/version-<%= projectVersion %>-blue.svg?cacheSeconds=2592000)
 <% } -%>
 
-<% if (issuesUrl) { -%>
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
-
 <% if (licenseName && licenseUrl) { -%>
 
 <% if (authorName && authorGithubUsername) { -%>
