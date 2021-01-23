@@ -6,6 +6,14 @@
     "name": "Jeroen Gerits",
     "email": "jeroen@gerits.email"
   },
+  "bugs": {
+    "url": "https://github.com/pixeen/ui/issues",
+    "email": "jeroen@gerits.email"
+  },
+  "engines": {
+    "npm": "~6.14.10",
+    "node": "~14.15.4"
+  },
   "homepage": "https://github.com/pixeen/ui",
   "repository": {
     "type": "git",
