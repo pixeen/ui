@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text",
   "scripts": {
@@ -23,7 +23,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@pixeen/reset": "^0.0.32"
+    "@pixeen/reset": "^0.0.33"
   },
   "devDependencies": {
     "goober": "^2.0.28"
