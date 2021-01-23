@@ -46,10 +46,6 @@
     "extends": "../../babel.config.js"
   },
   "author": "Jeroen Gerits <jeroen@gerits.email>",
-  "bugs": {
-    "email": "jeroen@gerits.email"
-  },
-  "homepage": "https://github.com/pixeen/ui",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pixeen/ui.git"

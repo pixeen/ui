@@ -48,11 +48,6 @@
     "name": "Jeroen Gerits",
     "email": "jeroen@gerits.email"
   },
-  "bugs": {
-    "url  ": "https://github.com/pixeen/ui/issues",
-    "email": "jeroen@gerits.email"
-  },
-  "homepage": "https://github.com/pixeen/ui",
   "repository": {
     "type": "git",
     "url": "https://github.com/pixeen/ui.git"
