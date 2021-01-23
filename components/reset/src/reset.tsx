@@ -1,7 +1,5 @@
 import React, { FC, ReactNode } from 'react';
-import { setup, styled } from 'goober';
-
-setup(React.createElement);
+import { styled } from 'goober';
 
 export interface ResetProperties {
   children: ReactNode;
