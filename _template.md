@@ -2,6 +2,11 @@
 <% if (projectDescription) { -%>
 <%= projectDescription %>
 <% } -%>
+
+<% if (licenseName) { -%>
+[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
+<% } -%>
+
 <% if (isProjectOnNpm) { -%>
 [![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
 <% } -%>
@@ -22,11 +27,7 @@
 <% if (authorTwitterUsername) { -%>
 [![Twitter: <%= authorTwitterUsername %>](https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social)](https://twitter.com/<%= authorTwitterUsername %>)
 <% } -%>
-<% if (licenseName) { -%>
-[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
-<% } -%>
 <% if (projectHomepage) { -%>
-
 [Homepage](<%= projectHomepage %>)
 <% } -%>
 <% if (projectDemoUrl) { -%>
