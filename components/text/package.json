@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.7",
   "name": "@pixeen/text",
   "description": "Pixeen UI Text Component",
   "author": "Jeroen Gerits <jeroen@gerits.email>",
@@ -30,7 +30,7 @@
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md"
   },
   "dependencies": {
-    "@pixeen/reset": "^0.0.6"
+    "@pixeen/reset": "^0.0.7"
   },
   "devDependencies": {
     "react": "^17.0.1",
