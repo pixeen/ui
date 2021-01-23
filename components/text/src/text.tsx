@@ -1,11 +1,20 @@
 import React, { FC } from 'react';
-import Reset from '@pixeen/reset';
+import { setup, styled } from 'goober';
+import Reset from '../../reset/src';
+
+setup(React.createElement);
+
+const StyledText = styled('h1')(() => {
+  return {
+    backgroundColor: 'red',
+  };
+});
 
 const Text: FC = () => {
   return (
     <>
       <Reset />
-      TEXT
+      <StyledText>TEXT</StyledText>
     </>
   );
 };

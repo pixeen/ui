@@ -2,6 +2,15 @@
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
     "baseUrl": "./",
-    "jsx": "react"
-  }
+    "jsx": "react",
+    "noEmit": true
+  },
+  "references": [
+    {
+      "path": "components/reset"
+    },
+    {
+      "path": "components/text"
+    }
+  ]
 }

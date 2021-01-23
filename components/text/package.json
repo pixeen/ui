@@ -1,7 +1,7 @@
 {
   "version": "0.0.28",
   "name": "@pixeen/text",
-  "description": "Pixeen UI Text Component",
+  "description": "Pixeen UI Text",
   "author": {
     "name": "Jeroen Gerits",
     "email": "jeroen@gerits.email"
@@ -36,15 +36,14 @@
   "scripts": {
     "clean": "rimraf dist -rf",
     "type-check": "tsc --noEmit",
-    "build": "rimraf ./dist -rf && yarn build:types && yarn build:js && yarn build:readme",
+    "build": "rimraf ./dist -rf && yarn build:js && yarn build:types && yarn build:readme",
     "build:types": "tsc -b tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md"
   },
   "dependencies": {
-    "@pixeen/reset": "^0.0.28"
-  },
-  "devDependencies": {
+    "@pixeen/reset": "^0.0.28",
+    "goober": "^2.0.28",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

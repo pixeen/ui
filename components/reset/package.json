@@ -1,7 +1,7 @@
 {
   "version": "0.0.28",
   "name": "@pixeen/reset",
-  "description": "Pixeen UI Reset Component",
+  "description": "Pixeen UI Reset",
   "author": {
     "name": "Jeroen Gerits",
     "email": "jeroen@gerits.email"
@@ -37,11 +37,11 @@
     "clean": "rimraf dist -rf",
     "type-check": "tsc --noEmit",
     "build": "rimraf ./dist -rf && yarn build:types && yarn build:js && yarn build:readme",
-    "build:types": "tsc -b tsconfig.build.json",
+    "build:types": "tsc -b ./tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md"
   },
-  "devDependencies": {
+  "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

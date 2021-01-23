@@ -1,4 +1,4 @@
-# Pixeen UI Text Component
+# Pixeen UI Text
 
 **@pixeen/text**
 

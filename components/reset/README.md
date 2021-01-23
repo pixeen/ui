@@ -1,4 +1,4 @@
-# Pixeen UI Reset Component
+# Pixeen UI Reset
 
 **@pixeen/reset**
 
