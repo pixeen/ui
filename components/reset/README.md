@@ -1,6 +1,5 @@
-# Pixeen UI Reset
-
-**@pixeen/reset**
+# %= projectName **
+> Pixeen UI Reset - Globally resets the CSS styles.
 
 ## Getting Started 
 

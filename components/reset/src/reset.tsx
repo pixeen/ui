@@ -1,15 +1,20 @@
-import React, { FC } from 'react';
-import { setup } from 'goober';
-import { createGlobalStyles } from 'goober/global';
+import React, { FC, ReactNode } from 'react';
+import { setup, styled } from 'goober';
 
 setup(React.createElement);
 
-const GlobalStyles = createGlobalStyles`
-  body { background: green; }
+export interface ResetProperties {
+  children: ReactNode;
+}
+
+type Properties = ResetProperties;
+
+const StyledReset = styled('div')`
+  background: red;
 `;
 
-const Reset: FC = () => {
-  return <GlobalStyles>RESET</GlobalStyles>;
+const Reset: FC<Properties> = ({ children }: Properties) => {
+  return <StyledReset>{children}</StyledReset>;
 };
 
 export default Reset;

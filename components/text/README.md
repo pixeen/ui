@@ -1,6 +1,5 @@
-# Pixeen UI Text
-
-**@pixeen/text**
+# %= projectName **
+> Pixeen UI Text
 
 ## Getting Started 
 
