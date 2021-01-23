@@ -1,4 +1,7 @@
 # <%= projectName %>
+<% if (projectDescription) { -%>
+<%= projectDescription %>
+<% } -%>
 <% if (isProjectOnNpm) { -%>
 [![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
 <% } -%>
@@ -19,22 +22,16 @@
 <% if (authorTwitterUsername) { -%>
 [![Twitter: <%= authorTwitterUsername %>](https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social)](https://twitter.com/<%= authorTwitterUsername %>)
 <% } -%>
-
 <% if (licenseName) { -%>
 [![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
 <% } -%>
-
-<% if (projectDescription) { -%>
-
-<%= projectDescription %>
-<% } -%>
 <% if (projectHomepage) { -%>
 
-### 🏠 [Homepage](<%= projectHomepage %>)
+[Homepage](<%= projectHomepage %>)
 <% } -%>
 <% if (projectDemoUrl) { -%>
 
-### ✨ [Demo](<%= projectDemoUrl %>)
+[Demo](<%= projectDemoUrl %>)
 <% } -%>
 <% if (projectPrerequisites && projectPrerequisites.length) { -%>
 
@@ -96,11 +93,6 @@ Contributions, issues and feature requests are welcome!
 Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
 <% } -%>
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-<% if (authorPatreonUsername) { -%>
-
 [![support us](https://img.shields.io/badge/become-a patreon%20us-orange.svg?cacheSeconds=2592000)](https://www.patreon.com/<%= authorPatreonUsername %>)
 <% } -%>
 
@@ -115,3 +107,4 @@ Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= autho
 This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
 <% } -%>
 
+<% if (authorPatreonUsername) { -%>
