@@ -1,8 +1,8 @@
 # @pixeen/text
 
-Pixeen UI Text Component
-
 [![Version](https://img.shields.io/npm/v/@pixeen/text.svg)](https://www.npmjs.com/package/@pixeen/text)
+
+Pixeen UI Text Component
 
 
 

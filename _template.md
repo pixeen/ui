@@ -1,11 +1,11 @@
 # <%= projectName %>
 
-<% if (projectDescription) { -%>
-<%= projectDescription %>
-<% } -%>
-
 <% if (isProjectOnNpm) { -%>
 [![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
+<% } -%>
+
+<% if (projectDescription) { -%>
+<%= projectDescription %>
 <% } -%>
 
 <% if (projectVersion && !isProjectOnNpm) { -%>
