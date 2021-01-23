@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "@pixeen/reset",
   "description": "Pixeen UI Rest Component",
   "author": "Jeroen Gerits <jeroen@gerits.email>",
@@ -7,7 +7,11 @@
   "types": "dist/index",
   "license": "MIT",
   "keywords": [
-    "react", "typescript", "ui", "components", "library"
+    "react",
+    "typescript",
+    "ui",
+    "components",
+    "library"
   ],
   "files": [
     "dist",
