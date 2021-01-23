@@ -1,6 +1,5 @@
-# Pixeen UI Rest Component
-
-@pixeen/reset
+# @pixeen/reset
+> Pixeen UI Rest Component
 
 This project is **MIT** licensed.
 
