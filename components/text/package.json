@@ -22,7 +22,8 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@pixeen/reset": "^0.0.31"
+    "@pixeen/reset": "^0.0.31",
+    "goober": "^2.0.28"
   },
   "devDependencies": {
     "goober": "^2.0.28",
