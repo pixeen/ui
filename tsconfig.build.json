@@ -2,14 +2,24 @@
   "compilerOptions": {
     "composite": true,
     "declaration": true,
-    "module": "commonjs",
-    "target": "esnext",
+    "sourceMap": true,
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "moduleResolution": "Node",
-    "strict": true,
+    "strict": true
   },
+  "include": ["components"],
   "exclude": [
     "node_modules",
     "dist"
   ]
-
 }

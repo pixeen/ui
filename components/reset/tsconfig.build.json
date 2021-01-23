@@ -3,10 +3,6 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-    "jsx": "react",
-    "esModuleInterop": true,
-    "emitDeclarationOnly": true,
-    "isolatedModules": true
   },
   "include": [
     "src/**/*"
