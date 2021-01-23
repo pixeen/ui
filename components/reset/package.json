@@ -26,6 +26,13 @@
     "dist",
     "README.md"
   ],
+  "keywords": [
+    "pixeen",
+    "react",
+    "typescript",
+    "ui",
+    "component"
+  ],
   "scripts": {
     "clean": "rimraf dist -rf",
     "type-check": "tsc --noEmit",
