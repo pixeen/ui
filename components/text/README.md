@@ -25,19 +25,34 @@
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#install)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#getting-started)
 
-## ➤ Install
+## ➤ Getting Started
+
+1. Install Component
+
 ```bash
 yarn add @pixeen/text goober
 ```
 
-Add you your project
+2. Import in your project
 
 ```typescript jsx
 import { setup } from 'goober';
-setup(React.createElement);
 ````
+
+3. Initialize once
+
+```typescript jsx
+setup(React.createElement);
+```
+
+4. Start using
+
+```html
+<Text>Hello</Text>
+```
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#contributors)
