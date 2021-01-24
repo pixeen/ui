@@ -1,10 +1,15 @@
-# @pixeen/reset**
+# @pixeen/reset
 > Pixeen UI Reset - Locally resets the CSS styles.
 
-## Getting Started 
+## Getting started
 
 ```shell
 yarn add @pixeen/reset goober
+```
+
+```js
+import { setup } from 'goober';
+setup(React.createElement);
 ```
 
 This project is **MIT** licensed.

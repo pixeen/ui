@@ -1,10 +1,15 @@
-# @pixeen/text**
+# @pixeen/text
 > Pixeen UI Text
 
-## Getting Started 
+## Getting started
 
 ```shell
 yarn add @pixeen/text goober
+```
+
+```js
+import { setup } from 'goober';
+setup(React.createElement);
 ```
 
 This project is **MIT** licensed.
