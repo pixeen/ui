@@ -26,3 +26,9 @@ package-lock.json
 
 # Yarn package lock files
 */**/yarn.lock
+
+# Test coverage
+.coverage/
+coverage/
+
+__snapshots__/

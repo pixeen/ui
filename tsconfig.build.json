@@ -9,6 +9,9 @@
     "emitDeclarationOnly": true,
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "lib": [
       "dom",
       "esnext"
@@ -16,7 +19,10 @@
     "moduleResolution": "Node",
     "strict": true
   },
-  "include": ["components"],
+  "include": [
+    "components",
+    "tools"
+  ],
   "exclude": [
     "node_modules",
     "dist"

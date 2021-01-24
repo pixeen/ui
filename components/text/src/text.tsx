@@ -1,13 +1,17 @@
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import Reset from '@pixeen/reset';
 
-const Text: FC = () => {
+interface TextProperties {
+  children: ReactNode;
+}
+
+type Properties = TextProperties;
+
+const Text: FC<Properties> = ({ children }: Properties) => {
   return (
-    <>
-      <Reset>
-        <div>123456</div>
-      </Reset>
-    </>
+    <Reset>
+      <div>{children}</div>
+    </Reset>
   );
 };
 

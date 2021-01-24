@@ -5,9 +5,10 @@
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "license": "MIT",
   "scripts": {
+    "test": "lerna run test --stream --parallel",
     "prestart": "yarn && lerna bootstrap",
     "start": "yarn build",
-    "clean": "yarn clean:lerna && yarn clean:logs && yarn clean:node",
+    "clean": "lerna run clean && yarn clean:lerna && yarn clean:logs && yarn clean:node",
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
@@ -15,7 +16,7 @@
     "watch": "lerna run watch --stream --parallel",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint './components/**/*.{ts,tsx}' --quiet --fix",
-    "postinstall": "update-ts-references"
+    "postinstall": "update-ts-references --discardComments --verbose"
   },
   "repository": {
     "url": "git+https://github.com/pixeen/ui.git"
@@ -43,6 +44,7 @@
     "prettier": "^2.2.1",
     "readme-md-generator": "^1.0.0",
     "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
     "typescript": "^4.1.3",
     "update-ts-references": "^2.0.0"
   },
