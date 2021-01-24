@@ -2,10 +2,12 @@
 <h1 align="center">@pixeen/text</h1>
 
 <div style="text-align:center">
-    ![NPM version](https://img.shields.io/npm/v/@pixeen/text?style=flat-square?label=VERSION)
-    ![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/text?label=SIZE&style=flat-square)
-    ![NPM types](https://img.shields.io/npm/types/@pixeen/text?style=flat-square?label=WITH)
-    ![NPM license](https://img.shields.io/npm/l/@pixeen/text?label=LICENSE&style=flat-square)
+
+![NPM version](https://img.shields.io/npm/v/@pixeen/text?style=flat-square?label=VERSION)
+![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/text?label=SIZE&style=flat-square)
+![NPM types](https://img.shields.io/npm/types/@pixeen/text?style=flat-square?label=WITH)
+![NPM license](https://img.shields.io/npm/l/@pixeen/text?label=LICENSE&style=flat-square)
+
 </div>
 
 <p align="center">
