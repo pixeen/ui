@@ -3,9 +3,9 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square?label=VERSION" alt="NPM version</a>">
-    <img src="https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&amp;style=flat-square" alt="NPM size</a>">
-    <img src="https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square?label=WITH" alt="NPM types</a>">
-    <img src="https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&amp;style=flat-square" alt="NPM license</a>">
+    <img src="https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square" alt="NPM size</a>">
+    <img src="https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square&label=WITH" alt="NPM types</a>">
+    <img src="https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square" alt="NPM license</a>">
 </p>
 
 {{ template:description }}

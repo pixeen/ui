@@ -3,13 +3,13 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/v/@pixeen/reset?style=flat-square?label=VERSION" alt="NPM version</a>">
-    <img src="https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&amp;style=flat-square" alt="NPM size</a>">
-    <img src="https://img.shields.io/npm/types/@pixeen/reset?style=flat-square?label=WITH" alt="NPM types</a>">
-    <img src="https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&amp;style=flat-square" alt="NPM license</a>">
+    <img src="https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&style=flat-square" alt="NPM size</a>">
+    <img src="https://img.shields.io/npm/types/@pixeen/reset?style=flat-square&label=WITH" alt="NPM types</a>">
+    <img src="https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&style=flat-square" alt="NPM license</a>">
 </p>
 
 <p align="center">
-  <b>Scoped CSS Reset - Resetting your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your HTML elements.</b></br>
+  <b>Scoped CSS Reset – cleaning your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your components.</b></br>
   <sub><sub>
 </p>
 
