@@ -2,16 +2,24 @@
 {{ template:title }}
 
 <p align="center">
+
 ![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square?label=VERSION)
+
 </p>
 <p align="center">
+
 ![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
+
 </p>
 <p align="center">
+
 ![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square?label=WITH)
+
 </p>
 <p align="center">
+
 ![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+
 </p>
 
 {{ template:description }}
