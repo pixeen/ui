@@ -1,14 +1,18 @@
 <!-- ⚠️ This README has been generated from the file(s) "./../../blueprint.md" ⚠️-->
 <h1 align="center">@pixeen/reset</h1>
 
-<div style="text-align:center">
-
+<p align="center">
 ![NPM version](https://img.shields.io/npm/v/@pixeen/reset?style=flat-square?label=VERSION)
+</p>
+<p align="center">
 ![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&style=flat-square)
+</p>
+<p align="center">
 ![NPM types](https://img.shields.io/npm/types/@pixeen/reset?style=flat-square?label=WITH)
+</p>
+<p align="center">
 ![NPM license](https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&style=flat-square)
-
-</div>
+</p>
 
 <p align="center">
   <b>Scoped CSS Reset - Resetting your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your HTML elements.</b></br>
