@@ -14,11 +14,6 @@
 <br />
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#usage)
-
-## ➤ Usage
-
 ```html
 <Text>Hello</Text>
 ```
