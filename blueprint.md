@@ -28,6 +28,4 @@ setup(React.createElement);
 
 {{ load:USAGE.md }}
 
-{{ template:contributors }}
-
 {{ template:license }}

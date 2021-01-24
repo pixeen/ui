@@ -56,14 +56,6 @@
     "email": "jeroen@gerits.email",
     "url": "http://twitter.com/jeroengerits"
   },
-  "contributors": [
-    {
-      "name": "Jeroen Gerits",
-      "email": "jeroen@gerits.email",
-      "url": "http://twitter.com/jeroengerits",
-      "img": "https://pbs.twimg.com/profile_images/837783506033987586/1A9oKtI1_400x400.jpg"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pixeen/ui.git"

@@ -61,6 +61,8 @@ setup(React.createElement);
 | [jeroen@gerits.email](mailto:jeroen@gerits.email) |
 
 
+{{ template:author }}
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#license)
 
