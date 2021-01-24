@@ -2,12 +2,9 @@
   "license": "MIT",
   "version": "0.0.44",
   "name": "@pixeen/reset",
-  "description": "Scoped reset of the CSS styles",
+  "description": "Scoped CSS Reset",
   "keywords": [
     "pixeen",
-    "react",
-    "typescript",
-    "ui",
     "component",
     "reset"
   ],

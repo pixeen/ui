@@ -7,7 +7,7 @@
 	</p>
 
 <p align="center">
-  <b>Scoped reset of the CSS styles</b></br>
+  <b>Scoped CSS Reset</b></br>
   <sub><sub>
 </p>
 

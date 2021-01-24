@@ -5,10 +5,8 @@
   "description": "Text component",
   "keywords": [
     "pixeen",
-    "react",
-    "typescript",
-    "ui",
-    "component"
+    "component",
+    "text"
   ],
   "scripts": {
     "test": "jest --colors",
