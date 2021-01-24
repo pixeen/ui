@@ -1,8 +1,8 @@
 {
   "line": "solar",
   "checkLinks": true,
-  "ids": {
-    "github": "pixeen/ui",
-    "npm": "@pixeen/reset"
+  "headingPrefix": {
+    "1": "➜ ",
+    "2": "⭑ "
   }
 }

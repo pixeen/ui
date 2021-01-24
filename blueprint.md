@@ -1,29 +1,30 @@
+
 {{ template:title }}
-{{ template:badges }}
+
+![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square)
+![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
+![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square)
+![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+
 {{ template:description }}
 
-## Usage
-
-{{ load:USAGE.md }}
+{{ template:toc }}
 
 ## Getting Started
 
-### Install Component
+**Add to your project**
 
 ```bash
 yarn add {{ pkg.name }} goober
 ```
 
-### Import in your project
+**Bootstrap setup**
 
 ```typescript jsx
 import { setup } from 'goober';
-```
-
-### Setup the component
-
-```typescript jsx
 setup(React.createElement);
 ```
+
+{{ load:USAGE.md }}
 
 {{ template:license }}

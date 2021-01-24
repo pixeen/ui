@@ -13,6 +13,7 @@
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
     "build": "lerna run build --scope @pixeen/* --stream",
+    "build:readme": "lerna run build:readme --scope @pixeen/* --stream --parallel",
     "watch": "lerna run watch --stream --parallel",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint '**/*.{ts,tsx}' --quiet --fix",
@@ -55,6 +56,7 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3",
+    "goober": "^2.0.28",
     "update-ts-references": "^2.0.0"
   },
   "husky": {

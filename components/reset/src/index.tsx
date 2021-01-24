@@ -10,11 +10,6 @@ type Properties = ResetProperties;
 
 const StyledReset = styled('div')(() => ({
   margin: 0,
-  padding: 0,
-  border: 0,
-  verticalAlign: 'baseline',
-  font: 'inherit',
-  fontSize: '100%',
 }));
 
 const Reset: FC<Properties> = ({ children }: Properties) => {

@@ -9,17 +9,17 @@
     "text"
   ],
   "scripts": {
-    "test": "jest --colors",
+    "test": "jest --colors --coverage --coverageDirectory .pixeen/coverage",
     "clean": "yarn clean:coverage && yarn clean:dist && yarn clean:buildinfo",
-    "clean:coverage": "rimraf coverage",
+    "clean:coverage": "rimraf .pixeen/coverage",
     "clean:dist": "rimraf dist -rf",
-    "clean:buildinfo": "rimraf -rf tsconfig.build.tsbuildinfo",
+    "clean:buildinfo": "rimraf -rf .pixeen/tsconfig.build.tsbuildinfo",
     "prebuild": "yarn clean",
     "watch": "yarn build:js --watch",
     "build": "yarn build:types && yarn build:js",
-    "build:types": "tsc -b tsconfig.build.json",
+    "build:types": "tsc -b .pixeen/tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx",
-    "build:readme": "readme generate --input ../../blueprint.md --config ../../blueprint.json",
+    "build:readme": "readme generate --input ../../blueprint.md --config .pixeen/blueprint.json",
     "postbuild": "rimraf ./dist/index.spec.d.ts ./dist/index.spec.js",
     "prepublishOnly": "yarn build && yarn build:readme"
   },
@@ -33,14 +33,8 @@
   "dependencies": {
     "@pixeen/reset": "^0.0.46"
   },
-  "devDependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "goober": "^2.0.28",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
   "peerDependencies": {
+    "goober": "^2.0.28",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",

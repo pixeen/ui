@@ -2,24 +2,24 @@
   "license": "MIT",
   "version": "0.0.46",
   "name": "@pixeen/reset",
-  "description": "Scoped CSS Reset",
+  "description": "Scoped CSS Reset - Resetting your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your HTML elements.",
   "keywords": [
     "pixeen",
     "component",
     "reset"
   ],
   "scripts": {
-    "test": "jest --colors",
+    "test": "jest --colors --coverage --coverageDirectory .pixeen/coverage",
     "clean": "yarn clean:coverage && yarn clean:dist && yarn clean:buildinfo",
-    "clean:coverage": "rimraf coverage",
+    "clean:coverage": "rimraf ./.pixeen/coverage",
     "clean:dist": "rimraf dist -rf",
-    "clean:buildinfo": "rimraf -rf tsconfig.build.tsbuildinfo",
+    "clean:buildinfo": "rimraf -rf .pixeen/tsconfig.build.tsbuildinfo",
     "watch": "yarn build:js --watch",
     "prebuild": "yarn clean",
     "build": "yarn build:types && yarn build:js",
-    "build:types": "tsc -b tsconfig.build.json",
+    "build:types": "tsc -b .pixeen/tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx",
-    "build:readme": "readme generate --input ../../blueprint.md --config ../../blueprint.json",
+    "build:readme": "readme generate --config .pixeen/blueprint.json",
     "postbuild": "rimraf ./dist/index.spec.d.ts ./dist/index.spec.js",
     "prepublishOnly": "yarn build && yarn build:readme"
   },
@@ -28,16 +28,10 @@
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "../../blueprint.md"
+    "README.md"
   ],
-  "devDependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "goober": "^2.0.28",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
   "peerDependencies": {
+    "goober": "^2.0.28",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
