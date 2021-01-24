@@ -12,19 +12,14 @@
 yarn add {{ pkg.name }} goober
 ```
 
-2. Import in your project
+2. Import in your project & setup
 
 ```typescript jsx
 import { setup } from 'goober';
-````
-
-3. Initialize once
-
-```typescript jsx
 setup(React.createElement);
 ```
 
-4. Start using
+3. Start using
 
 {{ load:USAGE.md }}
 
