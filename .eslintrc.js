@@ -7,6 +7,7 @@ module.exports = {
       jsx: true,
     },
   },
+  plugins: ['jest-dom'],
   settings: {
     react: {
       version: 'detect',
@@ -17,6 +18,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:jest-dom/recommended',
   ],
   rules: {
     'react/jsx-uses-react': 'off',

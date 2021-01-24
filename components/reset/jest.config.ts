@@ -2,5 +2,6 @@ import sharedConfig from '../../jest.config';
 
 module.exports = {
   ...sharedConfig,
-  rootDir: './src',
+  setupFilesAfterEnv: ['<rootDir>/setupTest.ts'],
+  rootDir: './',
 };
