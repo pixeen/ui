@@ -12,7 +12,6 @@
     "reset"
   ],
   "scripts": {
-    "test": "jest --colors",
     "clean": "yarn clean:coverage && yarn clean:dist && yarn clean:buildinfo",
     "clean:coverage": "rimraf coverage",
     "clean:dist": "rimraf dist -rf",
@@ -32,25 +31,12 @@
     "dist",
     "README.md"
   ],
-  "dependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0"
-  },
   "devDependencies": {
-    "@types/enzyme": "^3.10.8",
-    "@types/jest": "^26.0.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@types/react-test-renderer": "^17.0.0",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
-    "babel-jest": "^26.6.3",
-    "enzyme": "^3.11.0",
-    "enzyme-to-json": "^3.6.1",
     "goober": "^2.0.28",
-    "jest": "^26.6.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-test-renderer": "^17.0.1"
+    "react-dom": "^17.0.1"
   },
   "peerDependencies": {
     "@types/react": "^17.0.0",
