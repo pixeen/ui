@@ -12,7 +12,7 @@
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
-    "build": "lerna run build --stream",
+    "build": "lerna run build --scope @pixeen/* --stream",
     "watch": "lerna run watch --stream --parallel",
     "release": "lerna publish -m '💥 Release'",
     "lint": "eslint '**/*.{ts,tsx}' --quiet --fix",
@@ -26,6 +26,7 @@
     "examples/**"
   ],
   "devDependencies": {
+    "@appnest/readme": "^1.2.7",
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -46,7 +47,6 @@
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "react-test-renderer": "^17.0.1",
-    "readme-md-generator": "^1.0.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.4.4",
     "ts-node": "^9.1.1",

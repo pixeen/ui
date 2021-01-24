@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.44",
   "name": "@pixeen/text",
-  "description": "Pixeen UI Text",
+  "description": "Text component",
   "keywords": [
     "pixeen",
     "react",
@@ -21,7 +21,8 @@
     "build": "yarn build:types && yarn build:js",
     "build:types": "tsc -b tsconfig.build.json",
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx",
-    "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md",
+    "build:readme": "readme generate --input ../../blueprint.md --config ../../blueprint.json",
+    "postbuild": "rimraf ./dist/index.spec.d.ts ./dist/index.spec.js",
     "prepublishOnly": "yarn build && yarn build:readme"
   },
   "main": "dist/index.js",
@@ -52,8 +53,17 @@
   },
   "author": {
     "name": "Jeroen Gerits",
-    "email": "jeroen@gerits.email"
+    "email": "jeroen@gerits.email",
+    "url": "http://twitter.com/jeroengerits"
   },
+  "contributors": [
+    {
+      "name": "Jeroen Gerits",
+      "email": "jeroen@gerits.email",
+      "url": "http://twitter.com/jeroengerits",
+      "img": "https://pbs.twimg.com/profile_images/837783506033987586/1A9oKtI1_400x400.jpg"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pixeen/ui.git"
