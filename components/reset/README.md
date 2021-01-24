@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>[WIP] Scoped CSS Reset – Cleaning your CSS to baseline property values.</b></br>
+  <b>[WIP] Component Level CSS Reset – Cleaning your CSS property values.</b></br>
   <sub><sub>
 </p>
 

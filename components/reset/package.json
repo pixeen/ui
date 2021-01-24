@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.46",
   "name": "@pixeen/reset",
-  "description": "[WIP] Scoped CSS Reset – Cleaning your CSS to baseline property values.",
+  "description": "[WIP] Component Level CSS Reset – Cleaning your CSS property values.",
   "keywords": [
     "pixeen",
     "component",
