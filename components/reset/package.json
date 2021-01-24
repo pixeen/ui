@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.46",
   "name": "@pixeen/reset",
-  "description": "[WIP] Scoped CSS Reset – cleaning your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your components.",
+  "description": "[WIP] Scoped CSS Reset – Cleaning your CSS to baseline property values.",
   "keywords": [
     "pixeen",
     "component",

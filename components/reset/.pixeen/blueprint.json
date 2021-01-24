@@ -2,7 +2,23 @@
   "extend": "./../../blueprint.json",
   "input": "./../../blueprint.md",
   "ids": {
-    "npm": "@pixeen/reset",
-    "github": "pixeen/ui"
-  }
+    "npm": "@pixeen/reset"
+  },
+  "properties": [
+    [
+      "Attribute",
+      "Type",
+      "Description"
+    ],
+    [
+      "**use**",
+      "string'",
+      "Determines the size"
+    ],
+    [
+      "**active**",
+      "boolean",
+      "Whether the element is active or not"
+    ]
+  ]
 }

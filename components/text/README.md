@@ -24,6 +24,11 @@
 * [➤ Getting Started](#-getting-started)
 * [➤ License](#-license)
 
+```html
+<Text>Hello</Text>
+```
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
 
@@ -41,11 +46,6 @@ yarn add @pixeen/text goober
 import { setup } from 'goober';
 setup(React.createElement);
 ```
-
-```html
-<Text>Hello</Text>
-```
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#license)

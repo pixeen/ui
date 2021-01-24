@@ -1,4 +1,7 @@
 {
   "line": "rainbow",
-  "checkLinks": true
+  "checkLinks": true,
+  "ids": {
+    "github": "pixeen/ui"
+  }
 }

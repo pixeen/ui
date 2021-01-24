@@ -12,6 +12,8 @@
 
 {{ template:toc }}
 
+{{ load:EXAMPLES.md }}
+
 ## Getting Started
 
 **Install**
@@ -26,7 +28,5 @@ yarn add {{ pkg.name }} goober
 import { setup } from 'goober';
 setup(React.createElement);
 ```
-
-{{ load:EXAMPLES.md }}
 
 {{ template:license }}

@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>[WIP] Scoped CSS Reset – cleaning your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your components.</b></br>
+  <b>[WIP] Scoped CSS Reset – Cleaning your CSS to baseline property values.</b></br>
   <sub><sub>
 </p>
 
@@ -21,10 +21,71 @@
 
 ## ➤ Table of Contents
 
-* [➤ Getting Started](#-getting-started)
+* [➤ Introduction](#-introduction)
 * [➤ Usage](#-usage)
+* [➤ Properties](#-properties)
 * [➤ Presets](#-presets)
+* [➤ Getting Started](#-getting-started)
 * [➤ License](#-license)
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#introduction)
+
+## ➤ Introduction
+
+Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components. The CSS Reset component is used to reset the component styling and all of its children. A `scoped` reset is useful for use-cases like widgets, embeds or stand-alone components.
+
+Since this is a `scoped` component the reset will only apply to the component and it's children. If you have full control over the website it's a better idea to apply a global CSS Reset.
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#usage)
+
+## ➤ Usage
+
+By default, de Reset component applies Eric Meyer's CSS Reset, however there are multiple [other popular presents available](#-presets).
+
+```html
+<Reset>This box has a reset</Reset>
+```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#properties)
+
+## ➤ Properties
+
+
+| Attribute  | Type    | Description                          |
+|------------|---------|--------------------------------------|
+| **use**    | string' | Determines the size                  |
+| **active** | boolean | Whether the element is active or not |
+
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#presets)
+
+## ➤ Presets
+
+The following CSS reset presets are available:
+
+- **erik**: Eric Meyer CSS Reset
+- **normalize**: Normalize CSS
+- **cleanslate**: Cleanslate
+- **yui2**: Yahoo! CSS Reset (YUI 2)
+- **yui3**: Yahoo! CSS Reset (YUI 3)
+- **shaun**: Shaun Inman’s CSS Reset
+- **tantek**: Tantek’s CSS Reset
+- **universal**: Universal CSS Reset
+- **mr1**: Minimalist Reset 1
+- **mr2**: Minimalist Reset 2
+- **mr3**: Minimalist Reset 3
+- **poor**: Poor Man’s CSS Reset
+- **siolon**: Siolon’s CSS Reset
+- **tripoli**: Tripoli CSS Reset
+- **simpler**: a simpler reset
+- **vanilla**: Vanilla CSS Reset
+- **mini**: Mini CSS Reset
+- **doctor**: HTML5 Doctor Reset
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
@@ -43,46 +104,6 @@ yarn add @pixeen/reset goober
 import { setup } from 'goober';
 setup(React.createElement);
 ```
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#usage)
-
-## ➤ Usage
-
-By default, de Reset component applies Eric Meyer's CSS Reset, however there are multiple [other popular presents available](#Presets).
-
-```html
-<Reset>This box has a reset</Reset>
-```
-
-- use: string
-- isImportant: bool
-- isBorderBox: bool
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#presets)
-
-## ➤ Presets
-
-The following reset are available and will be supported.
-
-- **yui2**: Yahoo! CSS Reset (YUI 2)
-- **yui3**: Yahoo! CSS Reset (YUI 3)
-- **erik**: Eric Meyer CSS Reset
-- **shaun**: Shaun Inman’s CSS Reset
-- **tantek**: Tantek’s CSS Reset
-- **universal**: Universal CSS Reset
-- **mr1**: Minimalist Reset 1
-- **mr2**: Minimalist Reset 2
-- **mr3**: Minimalist Reset 3
-- **poor**: Poor Man’s CSS Reset
-- **siolon**: Siolon’s CSS Reset
-- **tripoli**: Tripoli CSS Reset
-- **doctor**: HTML5 Doctor Reset
-- **simpler**: a simpler reset
-- **vanilla**: Vanilla CSS Reset
-- **mini**: Mini CSS Reset
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#license)

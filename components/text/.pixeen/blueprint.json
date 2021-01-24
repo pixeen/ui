@@ -2,7 +2,6 @@
   "extend": "./../../blueprint.json",
   "input": "./../../blueprint.md",
   "ids": {
-    "npm": "@pixeen/reset",
-    "github": "pixeen/ui"
+    "npm": "@pixeen/reset"
   }
 }
