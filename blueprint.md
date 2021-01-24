@@ -2,6 +2,8 @@
 {{ template:badges }}
 {{ template:description }}
 
+## Usage
+
 {{ load:USAGE.md }}
 
 ## Getting Started
