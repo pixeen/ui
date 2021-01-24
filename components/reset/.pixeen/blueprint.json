@@ -4,7 +4,7 @@
   "ids": {
     "npm": "@pixeen/reset"
   },
-  "properties": [
+  "arguments": [
     [
       "Attribute",
       "Type",
@@ -12,13 +12,13 @@
     ],
     [
       "**use**",
-      "string'",
-      "Determines the size"
+      "string",
+      "Determine the CSS reset (default = eric)"
     ],
     [
-      "**active**",
+      "**isImportant**",
       "boolean",
-      "Whether the element is active or not"
+      "Marks all CSS reset values as `!important`"
     ]
   ]
 }
