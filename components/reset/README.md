@@ -35,7 +35,9 @@
 
 Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components. The CSS Reset component is used to reset the component styling and all of its children. A `scoped` reset is useful for use-cases like widgets, embeds or stand-alone components.
 
-Since this is a `scoped` component the reset will only apply to the component and it's children. If you have full control over the website it's a better idea to apply a global CSS Reset.
+Since this is a `scoped` component the reset will only apply to the component and it's children. Additionally it you can define all of it's clean css values as `!important`, this makes sure that there are not styles `leaking` from the components parent container. 
+
+If you have full control over the website it' probably s a better idea to apply a global CSS Reset.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#usage)
