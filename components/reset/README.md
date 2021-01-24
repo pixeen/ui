@@ -1,10 +1,12 @@
 <!-- ⚠️ This README has been generated from the file(s) "./../../blueprint.md" ⚠️-->
 <h1 align="center">@pixeen/reset</h1>
 
-![NPM version](https://img.shields.io/npm/v/@pixeen/reset?style=flat-square)
-![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&style=flat-square)
-![NPM types](https://img.shields.io/npm/types/@pixeen/reset?style=flat-square)
-![NPM license](https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&style=flat-square)
+<div style="text-align:center">
+    ![NPM version](https://img.shields.io/npm/v/@pixeen/reset?style=flat-square?label=VERSION)
+    ![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&style=flat-square)
+    ![NPM types](https://img.shields.io/npm/types/@pixeen/reset?style=flat-square?label=WITH)
+    ![NPM license](https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&style=flat-square)
+</div>
 
 <p align="center">
   <b>Scoped CSS Reset - Resetting your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your HTML elements.</b></br>
@@ -15,27 +17,27 @@
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
-## ⭑ Table of Contents
+## ➤ Table of Contents
 
-* [⭑ Getting Started](#-getting-started)
-* [⭑ Basic Usage](#-basic-usage)
-* [⭑ Supported Resets](#-supported-resets)
-* [⭑ License](#-license)
+* [➤ Getting Started](#-getting-started)
+* [➤ Usage](#-usage)
+* [➤ Presets](#-presets)
+* [➤ License](#-license)
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#getting-started)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
 
-## ⭑ Getting Started
+## ➤ Getting Started
 
-**Add to your project**
+**Install**
 
 ```bash
 yarn add @pixeen/reset goober
 ```
 
-**Bootstrap setup**
+**Usage**
 
 ```typescript jsx
 import { setup } from 'goober';
@@ -43,11 +45,11 @@ setup(React.createElement);
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#basic-usage)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#usage)
 
-## ⭑ Basic Usage
+## ➤ Usage
 
-The default usage does not need any arguments
+By default, de Reset component applies Eric Meyer's CSS Reset, however there are multiple [other popular presents available](#Presets).
 
 ```html
 <Reset>This box has a reset</Reset>
@@ -58,9 +60,9 @@ The default usage does not need any arguments
 - isBorderBox: bool
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#supported-resets)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#presets)
 
-## ⭑ Supported Resets
+## ➤ Presets
 
 The following reset are available and will be supported.
 
@@ -83,8 +85,8 @@ The following reset are available and will be supported.
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#license)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#license)
 
-## ⭑ License
+## ➤ License
 	
 Licensed under [MIT](https://opensource.org/licenses/MIT).

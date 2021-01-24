@@ -1,8 +1,4 @@
 {
-  "line": "solar",
-  "checkLinks": true,
-  "headingPrefix": {
-    "1": "➜ ",
-    "2": "⭑ "
-  }
+  "line": "rainbow",
+  "checkLinks": true
 }

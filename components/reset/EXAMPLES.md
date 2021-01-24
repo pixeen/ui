@@ -1,6 +1,6 @@
-## Basic Usage
+## Usage
 
-The default usage does not need any arguments
+By default, de Reset component applies Eric Meyer's CSS Reset, however there are multiple [other popular presents available](#Presets).
 
 ```html
 <Reset>This box has a reset</Reset>
@@ -10,7 +10,7 @@ The default usage does not need any arguments
 - isImportant: bool
 - isBorderBox: bool
 
-## Supported Resets
+## Presets
 
 The following reset are available and will be supported.
 

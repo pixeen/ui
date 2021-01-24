@@ -1,10 +1,12 @@
 
 {{ template:title }}
 
-![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square)
-![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
-![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square)
-![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+<div style="text-align:center">
+    ![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square?label=VERSION)
+    ![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
+    ![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square?label=WITH)
+    ![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+</div>
 
 {{ template:description }}
 
@@ -12,19 +14,19 @@
 
 ## Getting Started
 
-**Add to your project**
+**Install**
 
 ```bash
 yarn add {{ pkg.name }} goober
 ```
 
-**Bootstrap setup**
+**Usage**
 
 ```typescript jsx
 import { setup } from 'goober';
 setup(React.createElement);
 ```
 
-{{ load:USAGE.md }}
+{{ load:EXAMPLES.md }}
 
 {{ template:license }}
