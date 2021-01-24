@@ -20,5 +20,22 @@
       "boolean",
       "Marks all CSS reset values as `!important`"
     ]
+  ],
+  "presets": [
+    [
+      "Value",
+      "Description",
+      "Info"
+    ],
+    [
+      "**reset**",
+      "Eric Meyer's CSS Reset",
+      "[Website](https://meyerweb.com/eric/tools/css/reset/)",
+    ],
+    [
+      "**normalize**",
+      "Nicolas Gallagher Normalize.css",
+      "[website](https://necolas.github.io/normalize.css/)"
+    ]
   ]
 }
