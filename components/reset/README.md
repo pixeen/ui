@@ -1,5 +1,5 @@
 # %= projectName **
-> Pixeen UI Reset - Globally resets the CSS styles.
+> Pixeen UI Reset - Locally resets the CSS styles.
 
 ## Getting Started 
 
@@ -9,4 +9,4 @@ yarn add @pixeen/reset goober
 
 This project is **MIT** licensed.
 
-Copyright © 2021 [Jeroen Gerits <jeroen@gerits.email>](https://github.com/pixeen).
+Copyright © 2021 [Jeroen Gerits](https://github.com/pixeen).

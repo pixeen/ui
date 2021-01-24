@@ -12,6 +12,9 @@
     },
     {
       "path": "components/text"
+    },
+    {
+      "path": "examples/typescript-react-app"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import renderer from 'react-test-renderer';
-import Reset from './reset';
+import Reset from './index';
 import { setup } from 'goober';
 setup(React.createElement);
 

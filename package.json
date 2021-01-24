@@ -5,17 +5,17 @@
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "license": "MIT",
   "scripts": {
-    "test": "lerna run test --scope @pixeen/* --stream --parallel",
+    "test": "lerna run test --stream --parallel",
     "prestart": "yarn && lerna bootstrap",
     "start": "yarn build",
     "clean": "lerna run clean && yarn clean:lerna && yarn clean:logs && yarn clean:node",
     "clean:lerna": "lerna clean --yes",
     "clean:node": "rimraf node_modules -rf",
     "clean:logs": "rimraf **/*.log -rf",
-    "build": "lerna run build  --scope @pixeen/* --stream",
+    "build": "lerna run build --stream",
     "watch": "lerna run watch --stream --parallel",
     "release": "lerna publish -m '💥 Release'",
-    "lint": "eslint './components/**/*.{ts,tsx}' --quiet --fix",
+    "lint": "eslint '**/*.{ts,tsx}' --quiet --fix",
     "postinstall": "update-ts-references --discardComments --verbose"
   },
   "repository": {
