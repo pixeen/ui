@@ -2,7 +2,7 @@
   "license": "MIT",
   "version": "0.0.44",
   "name": "@pixeen/reset",
-  "description": "Locally resets the CSS styles.",
+  "description": "Scoped reset of the CSS styles",
   "keywords": [
     "pixeen",
     "react",

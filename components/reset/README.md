@@ -7,7 +7,7 @@
 	</p>
 
 <p align="center">
-  <b>Locally resets the CSS styles.</b></br>
+  <b>Scoped reset of the CSS styles</b></br>
   <sub><sub>
 </p>
 
@@ -20,7 +20,7 @@
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#getting-started)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#getting-started)
 
 ## ➤ Getting Started
 
@@ -50,7 +50,7 @@ setup(React.createElement);
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#contributors)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#contributors)
 
 ## ➤ Contributors
 	
@@ -62,7 +62,7 @@ setup(React.createElement);
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)](#license)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#license)
 
 ## ➤ License
 	

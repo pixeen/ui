@@ -1,5 +1,6 @@
 {
-  "line": "dark",
+  "line": "solar",
+  "checkLinks": true,
   "ids": {
     "github": "pixeen/ui",
     "npm": "@pixeen/reset"
