@@ -2,25 +2,28 @@
 {{ template:badges }}
 {{ template:description }}
 
+## Usage
+
 {{ load:USAGE.md }}
 
 ## Getting Started
 
-1. Install Component
+### Install Component
 
 ```bash
 yarn add {{ pkg.name }} goober
 ```
 
-2. Import in your project & setup
+### Import in your project
 
 ```typescript jsx
 import { setup } from 'goober';
-setup(React.createElement);
 ```
 
-3. Start using
+### Setup the component
 
-{{ load:USAGE.md }}
+```typescript jsx
+setup(React.createElement);
+```
 
 {{ template:license }}

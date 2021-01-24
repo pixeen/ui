@@ -14,6 +14,11 @@
 <br />
 
 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#usage)
+
+## ➤ Usage
+
 ```html
 <Text>Hello</Text>
 ```
@@ -24,25 +29,23 @@
 
 ## ➤ Getting Started
 
-1. Install Component
+### Install Component
 
 ```bash
 yarn add @pixeen/text goober
 ```
 
-2. Import in your project & setup
+### Import in your project
 
 ```typescript jsx
 import { setup } from 'goober';
+```
+
+### Setup the component
+
+```typescript jsx
 setup(React.createElement);
 ```
-
-3. Start using
-
-```html
-<Text>Hello</Text>
-```
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#license)
