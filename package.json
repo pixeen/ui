@@ -2,6 +2,7 @@
   "private": true,
   "version": "0.0.1",
   "name": "@pixeen/ui",
+  "description": "Component Library",
   "author": "Jeroen Gerits <jeroen@gerits.email>",
   "license": "MIT",
   "scripts": {
@@ -77,7 +78,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "description": "> Component Library",
   "bugs": {
     "url": "https://github.com/pixeen/ui/issues"
   },

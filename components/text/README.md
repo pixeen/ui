@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>Text component</b></br>
+  <b>[WIP] Text component</b></br>
   <sub><sub>
 </p>
 

@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>Scoped CSS Reset – cleaning your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your components.</b></br>
+  <b>[WIP] Scoped CSS Reset – cleaning your CSS to baseline property values is useful for gaining control, predictability, and uniformity with regards to how browsers render your components.</b></br>
   <sub><sub>
 </p>
 
