@@ -24,7 +24,8 @@
 * [➤ Introduction](#-introduction)
 * [➤ Usage](#-usage)
 * [➤ Arguments](#-arguments)
-* [➤ Use different preset](#-use-different-preset)
+* [➤ Use a different CSS reset](#-use-a-different-css-reset)
+* [➤ Is important CSS reset](#-is-important-css-reset)
 * [➤ Getting Started](#-getting-started)
 * [➤ License](#-license)
 
@@ -61,24 +62,36 @@ By default, `Reset` component applies the __Eric Meyer's__ CSS reset.
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-different-preset)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-a-different-css-reset)
 
-## ➤ Use different preset
+## ➤ Use a different CSS reset
 
-You can select between various popular CSS reset presets.
+You can select between various popular CSS reset base styles.
 
 ```html
-<Reset use="normalize">This box has a reset</Reset>
+<Reset use="normalize">This box has a __Normalize__ reset</Reset>
 ```
 
-The following CSS reset presets are available:
+The following CSS reset base styles are available:
 
-Optionally you can define all applied CSS reset values as `!important`, this makes sure that there are not styles `leaking` from the components parent components.
-
-
+@ todo make this a column.
 - **reset**: Eric Meyer CSS Reset (default)
 - **normalize**: Normalize CSS
 - **cleanslate**: Cleanslate
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#is-important-css-reset)
+
+## ➤ Is important CSS reset
+
+You can enable all CSS reset values as `!important`, which make sense to fully isolates the component. This avoids any styles are leaking in from their parent..
+
+```html
+<Reset isImportant>This box has all reset values set to `!important`</Reset>
+```
+
+These CSS reset base styles might be implemented in the future.
+
 - **yui2**: Yahoo! CSS Reset (YUI 2)
 - **yui3**: Yahoo! CSS Reset (YUI 3)
 - **shaun**: Shaun Inman’s CSS Reset
