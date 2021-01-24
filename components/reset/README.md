@@ -2,16 +2,10 @@
 <h1 align="center">@pixeen/reset</h1>
 
 <p align="center">
-![NPM version](https://img.shields.io/npm/v/@pixeen/reset?style=flat-square?label=VERSION)
-</p>
-<p align="center">
-![NPM size](https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&style=flat-square)
-</p>
-<p align="center">
-![NPM types](https://img.shields.io/npm/types/@pixeen/reset?style=flat-square?label=WITH)
-</p>
-<p align="center">
-![NPM license](https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&style=flat-square)
+    <a href="https://img.shields.io/npm/v/@pixeen/reset?style=flat-square?label=VERSION">NPM version</a>
+    <a href="https://img.shields.io/bundlephobia/minzip/@pixeen/reset?label=SIZE&amp;style=flat-square">NPM size</a>
+    <a href="https://img.shields.io/npm/types/@pixeen/reset?style=flat-square?label=WITH">NPM types</a>
+    <a href="https://img.shields.io/npm/l/@pixeen/reset?label=LICENSE&amp;style=flat-square">NPM license</a>
 </p>
 
 <p align="center">
