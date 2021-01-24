@@ -50,20 +50,6 @@ setup(React.createElement);
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#contributors)
-
-## ➤ Contributors
-	
-
-| [<img alt="Jeroen Gerits" src="https://pbs.twimg.com/profile_images/837783506033987586/1A9oKtI1_400x400.jpg" width="100">](http://twitter.com/jeroengerits) |
-|:--------------------------------------------------:|
-| [Jeroen Gerits](http://twitter.com/jeroengerits) |
-| [jeroen@gerits.email](mailto:jeroen@gerits.email) |
-
-
-{{ template:author }}
-
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#license)
 
 ## ➤ License
