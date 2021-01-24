@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "name": "@pixeen/reset",
   "description": "Pixeen UI Reset - Locally resets the CSS styles.",
   "keywords": [

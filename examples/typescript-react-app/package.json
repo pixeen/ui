@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "typescript-react-app",
   "scripts": {
     "start": "webpack-cli serve --mode=development --env development --open --hot",
@@ -10,7 +10,7 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
-    "@pixeen/text": "^0.0.41",
+    "@pixeen/text": "^0.0.42",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
