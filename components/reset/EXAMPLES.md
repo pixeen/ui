@@ -2,7 +2,7 @@
 
 Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This CSS Reset component is used to reset the styling on a `component level`. This is usefull it for use-cases like widgets or other stand-alone components.
+This CSS Reset component is used to reset the CSS styling on a `component level` instead of a global level. This is very useful for use-cases like widgets or other stand-alone components.
 
 Keep in mind, this is a `component level` reset and these styles will only apply to it's children. If you actually have full control over the website global styles it's probably a better idea to apply a global CSS reset.
 
