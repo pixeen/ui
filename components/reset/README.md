@@ -14,11 +14,6 @@
 <br />
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#usage)
-
-## ➤ Usage
-
 ```html
 <Reset>Hello</Reset>
 ```
