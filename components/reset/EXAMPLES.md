@@ -1,30 +1,26 @@
 ## Introduction
 
-Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components. The CSS Reset component is used to reset the component styling and all of its children. A `scoped` reset is useful for use-cases like widgets, embeds or stand-alone components.
+Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-Since this is a `scoped` component the CSS reset will only apply to the component and it's children. If you have full control over the website it' probably s a better idea to create global styles and apply a CSS reset there..
+This CSS Reset component is used to reset the styling on a `component level`. This is usefull it for use-cases like widgets or other stand-alone components.
+
+Keep in mind, this is a `component level` reset and these styles will only apply to it's children. If you actually have full control over the website global styles it's probably a better idea to apply a global CSS reset.
 
 ## Usage
 
-By default, `Reset` component applies the __Eric Meyer's__ CSS reset.
+By default, it will apply the __Eric Meyer's__ CSS reset.
 
 ```html
 <Reset>This box has a __Eric Meyer's__ CSS reset</Reset>
 ```
 
-## Arguments
-
-{{ arguments }}
-
 ## Use a different CSS reset
-
-You can select between various popular CSS reset base styles.
 
 ```html
 <Reset use="normalize">This box has a __Normalize__ reset</Reset>
 ```
 
-The following CSS reset base styles are available:
+You can select between various popular CSS reset base styles, the following CSS reset base styles are available:
 
 @ todo make this a column.
 - **reset**: Eric Meyer CSS Reset (default)
@@ -33,13 +29,23 @@ The following CSS reset base styles are available:
 
 ## Is important CSS reset
 
-You can enable all CSS reset values as `!important`, which make sense to fully isolates the component. This avoids any styles are leaking in from their parent..
+You can enable all CSS reset values as `!important` to fully isolate the component. This avoids having any global element styles `leaking` from their parent elements.
 
 ```html
 <Reset isImportant>This box has all reset values set to `!important`</Reset>
 ```
 
-These CSS reset base styles might be implemented in the future.
+## Arguments
+
+{{ arguments }}
+
+## Why not just unset?
+
+Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
+
+## Other popular CSS reset base stylings
+
+These CSS resets might be implemented in the future.
 
 - **yui2**: Yahoo! CSS Reset (YUI 2)
 - **yui3**: Yahoo! CSS Reset (YUI 3)
