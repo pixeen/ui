@@ -1,9 +1,9 @@
 import Text from "@pixeen/text";
 import {setup} from "goober";
-import * as React from "react";
+import { createElement } from "react";
 
 // Setup goober (move to pixeen provider eventually)
-setup(React.createElement)
+setup(createElement)
 
 const App = () => (
   <Text>Hello!</Text>

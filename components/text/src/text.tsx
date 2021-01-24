@@ -1,5 +1,6 @@
-import React, { FC, ReactNode } from 'react';
+import { FC, ReactNode } from 'react';
 import Reset from '@pixeen/reset';
+import * as React from 'react';
 
 interface TextProperties {
   children: ReactNode;
