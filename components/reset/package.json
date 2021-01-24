@@ -12,6 +12,7 @@
     "reset"
   ],
   "scripts": {
+    "test": "jest --colors",
     "clean": "yarn clean:coverage && yarn clean:dist && yarn clean:buildinfo",
     "clean:coverage": "rimraf coverage",
     "clean:dist": "rimraf dist -rf",
@@ -20,7 +21,7 @@
     "prebuild": "yarn clean",
     "build": "yarn build:types && yarn build:js",
     "build:types": "tsc -b tsconfig.build.json",
-    "build:js": "babel src --out-dir dist --extensions .ts,.tsx",
+    "build:js": "babel index.ts src --out-dir dist --extensions .ts,.tsx",
     "build:readme": "rimraf ./README.md && readme -y -p ../../_template.md",
     "prepublishOnly": "yarn build && yarn build:readme"
   },
