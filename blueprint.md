@@ -2,10 +2,12 @@
 {{ template:title }}
 
 <div style="text-align:center">
-    ![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square?label=VERSION)
-    ![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
-    ![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square?label=WITH)
-    ![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+
+![NPM version](https://img.shields.io/npm/v/{{ pkg.name }}?style=flat-square?label=VERSION)
+![NPM size](https://img.shields.io/bundlephobia/minzip/{{ pkg.name }}?label=SIZE&style=flat-square)
+![NPM types](https://img.shields.io/npm/types/{{ pkg.name }}?style=flat-square?label=WITH)
+![NPM license](https://img.shields.io/npm/l/{{ pkg.name }}?label=LICENSE&style=flat-square)
+
 </div>
 
 {{ template:description }}
