@@ -39,11 +39,11 @@ You can enable all CSS reset values as `!important` to fully isolate the compone
 
 {{ arguments }}
 
-## Why not just unset?
+## Why not just use all unset?
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
-## Other popular CSS reset base stylings
+## Popular CSS reset styling presets
 
 These CSS resets might be implemented in the future.
 
