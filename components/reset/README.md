@@ -1,4 +1,4 @@
-# %= projectName **
+# @pixeen/reset**
 > Pixeen UI Reset - Locally resets the CSS styles.
 
 ## Getting Started 
