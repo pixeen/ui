@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "name": "@pixeen/reset",
   "description": "Scoped CSS Reset",
   "keywords": [
