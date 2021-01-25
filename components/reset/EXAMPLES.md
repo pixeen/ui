@@ -1,6 +1,6 @@
 ## Introduction
 
-**Cleaning your CSS base elements in general is helps to ensure predictability and consistency in the way browsers render your components.**
+**Cleaning your CSS base elements helps to ensure predictability and consistency in the way browsers render your components.** Usually we can solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
 
 However, there are times when you don't have full control over the environment where your components are being used. This can have the parent element 'bleeding' it's element styles in your component.
 
