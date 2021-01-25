@@ -52,9 +52,9 @@ Alternatively you can also use your own custom CSS reset.
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
-## Popular CSS reset styling presets
+## Notable projects
 
-These CSS resets might be implemented in the future.
+These CSS resets might be implemented in the future to use with this `Reset` component.
 
 - **yui2**: Yahoo! CSS Reset (YUI 2)
 - **yui3**: Yahoo! CSS Reset (YUI 3)
