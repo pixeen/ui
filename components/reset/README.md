@@ -117,10 +117,10 @@ By setting `isImportant` you enable all CSS reset values to be `!important` insi
 
 In some cases you might just want to avoid `all possible` elements leak into your component. With the `isIsolated` argument you can reset all possible CSS leakage.
 
-There are two downsides to this approach:
+**There are two downsides to this approach:**
 
 1. comes with a price in terms of CSS file-size (@todo calculate).
-2. You can't bring your own `preset`, since it overloads everything.
+2. You can't bring your own `preset`, this will clean + set `!important for ALL possible CSS styles.
 
 ```html
 <Reset isVeryImportant>This cleans ALL the CSS styles</Reset>
