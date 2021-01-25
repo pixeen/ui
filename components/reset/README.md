@@ -27,8 +27,8 @@
 * [➤ Arguments](#-arguments)
 * [➤ Isolate your component](#-isolate-your-component)
 * [➤ Further isolate your component](#-further-isolate-your-component)
-* [➤ Alternative resets](#-alternative-resets)
-* [➤ Use your own CSS reset](#-use-your-own-css-reset)
+* [➤ Alternative element styles](#-alternative-element-styles)
+* [➤ Bring your own element styles](#-bring-your-own-element-styles)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
 * [➤ Why not just iframes?](#-why-not-just-iframes)
 * [➤ Global base style cleaners](#-global-base-style-cleaners)
@@ -104,7 +104,7 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 By setting `isImportant` you enable all CSS reset values to be `!important` inside the `component scope`. This avoids having any global element styles `leaking` from their parent elements and makes it possible to fully isolates your component and its children.
 
 ```html
-<Reset isImportant>This box has all reset values set to `!important`</Reset>
+<Reset isImportant>This sets reset values to `!important`</Reset>
 ```
 
 
@@ -112,12 +112,21 @@ By setting `isImportant` you enable all CSS reset values to be `!important` insi
 
 ## ➤ Further isolate your component
 
-In some cases you might just want to avoid `all possible` elements leak into your component. With the `isIsolated` argument you can reset all possible CSS leakage. However this comes with a price in terms of CSS file-size (@todo calculate).
+In some cases you might just want to avoid `all possible` elements leak into your component. With the `isIsolated` argument you can reset all possible CSS leakage.
+
+There are two downsides to this approach:
+
+1. comes with a price in terms of CSS file-size (@todo calculate).
+2. You can't bring your own `preset`, since it overloads everything.
+
+```html
+<Reset isVeryImportant>This cleans ALL the CSS styles</Reset>
+```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#alternative-resets)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#alternative-element-styles)
 
-## ➤ Alternative resets
+## ➤ Alternative element styles
 
 You can also use `normalize`, which is another popular CSS reset package.
 
@@ -125,7 +134,13 @@ You can also use `normalize`, which is another popular CSS reset package.
 <Reset use="normalize">This component has Nicolas Gallagher Normalize.css applied</Reset>
 ```
 
-You can use various popular CSS reset base styles. The following CSS reset base styles are available:
+It's possible to use the `isImportant` attribute for any given base style.
+
+```html
+<Reset use="modern" isImportant>This component has Nicolas Gallagher Normalize.css applied and marked as `!important`</Reset>
+```
+
+You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
 
 | Value         | Description                     | Info                                             |
@@ -135,11 +150,19 @@ You can use various popular CSS reset base styles. The following CSS reset base 
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-your-own-css-reset)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#bring-your-own-element-styles)
 
-## ➤ Use your own CSS reset
+## ➤ Bring your own element styles
 
-Alternatively you can also use your own custom CSS reset. (write more here)
+Alternatively you can also use your own custom CSS reset.
+
+```
+<CustomReset use="../path/to/elements.css">This has a custom reset</CustomReset>
+```
+
+It's possible to set the `isImportant` argument for your own custom reset. This will make all your element styles to be `!important`.
+
+It's not possible to set the `
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-all-unset)
