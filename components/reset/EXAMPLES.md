@@ -4,7 +4,7 @@
 
 Usually we solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
 
-However, there are times when you don't have full control over the environment where your components are being used. This can have the parent element 'bleeding' it's element styles in your component.
+However, there are times when you don't have full control over the environment where your components are being used. This can lead to situations where the global element style are unwillingly 'bleeding' into your component.
 
 With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
