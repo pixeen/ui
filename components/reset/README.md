@@ -61,7 +61,7 @@ setup(React.createElement);
 
 **Cleaning your CSS base elements helps to ensure predictability and consistency in the way browsers render your components.**
 
-Usually we solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
+Usually it's solved on a `global scope` by applying a global CSS cleaner (reset,normalize,etc) and having control of the 'load order'.
 
 However, there are times when you don't have full control over the environment where your components are being used. This can lead to situations where the global element style are 'bleeding' into your component.
 
