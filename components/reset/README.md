@@ -139,7 +139,7 @@ You can also use `normalize`, which is another popular CSS reset package.
 It's possible to use the `isImportant` attribute for any given base style.
 
 ```html
-<Reset use="modern" isImportant>This component has Nicolas Gallagher Normalize.css applied and marked as `!important`</Reset>
+<Reset use="modern" isImportant>This component has Normalize.css and marked as `!important`</Reset>
 ```
 
 
