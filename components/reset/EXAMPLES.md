@@ -2,7 +2,7 @@
 
 **Cleaning your CSS base elements helps to ensure predictability and consistency in the way browsers render your components.**
 
-Usually it's solved on a `global scope` by applying a global CSS cleaner (reset,normalize,etc) and having control of the 'load order'.
+Usually it's solved on a `global scope` by loading global CSS cleaners such as `reset` or `normalize` and additionally having control on the 'load order' of the CSS styles.
 
 However, sometimes you don't have full control off the environment where your components run. This can lead to situations where the `global scope` styles are 'bleeding' into your component.
 
