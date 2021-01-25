@@ -84,10 +84,10 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 ## ➤ Arguments
 
 
-| Attribute       | Type    | Description                                |
-|-----------------|---------|--------------------------------------------|
-| **use**         | string  | Determine the CSS reset (default = eric)   |
-| **isImportant** | boolean | Marks all CSS reset values as `!important` |
+| Attribute       | Type    | Description                                      |
+|-----------------|---------|--------------------------------------------------|
+| **use**         | string  | Set the CSS reset (default = __Eric Meyer's__ CSS reset) |
+| **isImportant** | boolean | Marks all CSS reset values as `!important`       |
 
 
 
@@ -142,22 +142,7 @@ Using `all: unset` revert all the styling to its initial value or inherent value
 
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
-- **yui2**: Yahoo! CSS Reset (YUI 2)
-- **yui3**: Yahoo! CSS Reset (YUI 3)
-- **shaun**: Shaun Inman’s CSS Reset
-- **tantek**: Tantek’s CSS Reset
-- **universal**: Universal CSS Reset
-- **mr1**: Minimalist Reset 1
-- **mr2**: Minimalist Reset 2
-- **mr3**: Minimalist Reset 3
-- **poor**: Poor Man’s CSS Reset
-- **siolon**: Siolon’s CSS Reset
-- **tripoli**: Tripoli CSS Reset
-- **simpler**: a simpler reset
-- **vanilla**: Vanilla CSS Reset
-- **mini**: Mini CSS Reset
-- **doctor**: HTML5 Doctor Reset
-- **cleanslate**: Cleanslate
+
 
 
 
