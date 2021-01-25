@@ -28,10 +28,10 @@
 * [➤ Isolate your component](#-isolate-your-component)
 * [➤ Further isolate your component](#-further-isolate-your-component)
 * [➤ Alternative element styles](#-alternative-element-styles)
-* [➤ Available base styles](#-available-base-styles)
-* [➤ Bring your own element styles](#-bring-your-own-element-styles)
-* [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
-* [➤ Why not just iframes?](#-why-not-just-iframes)
+* [➤ Available styles](#-available-styles)
+* [➤ Bring your own styles](#-bring-your-own-styles)
+* [➤ Why not just use `all unset`?](#-why-not-just-use-all-unset)
+* [➤ Why not just use `iframes`?](#-why-not-just-use-iframes)
 * [➤ Global base style cleaners](#-global-base-style-cleaners)
 * [➤ License](#-license)
 
@@ -145,9 +145,9 @@ It's possible to use the `isImportant` attribute for any given base style.
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#available-base-styles)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#available-styles)
 
-## ➤ Available base styles
+## ➤ Available styles
 
 You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
@@ -159,9 +159,9 @@ You can use various other popular CSS reset base styles. The following CSS reset
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#bring-your-own-element-styles)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#bring-your-own-styles)
 
-## ➤ Bring your own element styles
+## ➤ Bring your own styles
 
 Alternatively you can also use your own custom CSS reset.
 
@@ -176,14 +176,14 @@ It's not possible to set the `
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-all-unset)
 
-## ➤ Why not just use all unset?
+## ➤ Why not just use `all unset`?
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-iframes)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-iframes)
 
-## ➤ Why not just iframes?
+## ➤ Why not just use `iframes`?
 
 Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
 
@@ -192,7 +192,7 @@ Frames are a way to achieve certain effects and/or solve certain problems in web
 
 ## ➤ Global base style cleaners
 
-These CSS resets might be implemented in the future to use with this `Reset` component.
+These CSS resets might be implemented as options in the future.
 
 
 | Short         | Long                            | Info                                             |

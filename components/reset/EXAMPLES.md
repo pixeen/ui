@@ -61,13 +61,13 @@ It's possible to use the `isImportant` attribute for any given base style.
 <Reset use="modern" isImportant>This component has Nicolas Gallagher Normalize.css applied and marked as `!important`</Reset>
 ```
 
-## Available base styles
+## Available styles
 
 You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
 {{ implementedPresets }}
 
-## Bring your own element styles
+## Bring your own styles
 
 Alternatively you can also use your own custom CSS reset.
 
@@ -79,16 +79,16 @@ It's possible to set the `isImportant` argument for your own custom reset. This 
 
 It's not possible to set the `
 
-## Why not just use all unset?
+## Why not just use `all unset`?
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
-## Why not just iframes?
+## Why not just use `iframes`?
 
 Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
 
 ## Global base style cleaners
 
-These CSS resets might be implemented in the future to use with this `Reset` component.
+These CSS resets might be implemented as options in the future.
 
 {{ allPresets }}
