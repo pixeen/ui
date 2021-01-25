@@ -26,6 +26,7 @@
 * [➤ Default usage](#-default-usage)
 * [➤ Arguments](#-arguments)
 * [➤ Isolate your component](#-isolate-your-component)
+* [➤ Further isolate your component](#-further-isolate-your-component)
 * [➤ Alternative resets](#-alternative-resets)
 * [➤ Use your own CSS reset](#-use-your-own-css-reset)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
@@ -66,7 +67,7 @@ Usually it's solved on a `global scope` by applying a global CSS cleaner (reset,
 
 However, sometimes you don't have full control off the environment where your components run. This can lead to situations where the `global scope` styles are 'bleeding' into your component.
 
-With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. Cleaning base styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment.
+This is a very small [ReactJS](https://reactjs.org/) component where you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. Cleaning base styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment it runs.
 
 It's important to note that this component will only apply your element styles to itself and its child components, it will not fully prevent you from unwillingly getting element styles from the parent component. You can protect your component from that by providing [the `isImportant` attribute](#-isolate-your-component).
 
@@ -105,6 +106,13 @@ By setting `isImportant` you enable all CSS reset values to be `!important` insi
 ```html
 <Reset isImportant>This box has all reset values set to `!important`</Reset>
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#further-isolate-your-component)
+
+## ➤ Further isolate your component
+
+In some cases you might just want to avoid `all possible` elements leak into your component. With the `isIsolated` argument you can reset all possible CSS leakage. However this comes with a price in terms of CSS file-size (@todo calculate).
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#alternative-resets)
