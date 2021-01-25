@@ -66,9 +66,9 @@ setup(React.createElement);
 
 Usually a reset of the CSS base elements is done in the `global scope` by loading CSS cleaners such as `reset` or `normalize`.
 
-However, sometimes you don't have full control off the environment where your components run. This can lead to situations where the `global scope` styles are 'bleeding' into your component.
+However, sometimes you don't have full control off the environment where your components run. This can lead to situations where styles from the `global scope` unwillingly 'bleeding' into your components.
 
-This is a very small [ReactJS](https://reactjs.org/) component where you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`.
+This is a small [ReactJS](https://reactjs.org/) component where you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`.
 
 Cleaning base element styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment it runs.
 
