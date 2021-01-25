@@ -46,15 +46,13 @@
 
 Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This `Reset` component is used to define new CSS base elements on a `component level` instead of a global level.
+The `Reset` component is build for [ReactJS](https://reactjs.org/) and is used to define new CSS base elements on a `component level` instead of a traditional global level.
 
-This is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`.
+Cleaning base styles on a component level is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`. It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
-It's important to understand that this `Reset` component will only apply new base styles to its child components.
+Additionally, you can fully isolate the component and apply the `isImportant` attribute to the `Reset` component..
 
-Additionally, you can fully isolate the component with setting the `isImportant` attribute.
-
-If you actually have control over your project global styles, it's probably a better idea clean the base styles on a global level instead.
+> If you actually have control over your project global styles, it's probably a better idea clean the base styles on a global level instead.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#default-usage)
