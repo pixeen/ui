@@ -168,7 +168,9 @@ Use your own custom CSS reset
 
 It's possible to set the `isImportant` argument for your own custom reset. This will make all your element styles to be `!important`.
 
-It's not possible to set the `
+```
+<CustomReset use="reset.css">Custom rest + important</CustomReset>
+``
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#global-css-cleaners)
