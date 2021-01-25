@@ -1,12 +1,16 @@
 ## Introduction
 
-Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components.
+Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This CSS Reset component is used to reset the CSS styling on a `component level` instead of a global level. This is very useful for use-cases like widgets or other stand-alone components.
+This `Reset` component is used to define new CSS base elements on a `component level` instead of a global level.
 
-The major difference is this `component level` reset will only apply a reset to its children components.
+This is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`.
 
-If you actually have control over your project global styles it's probably a better idea use a global CSS reset instead.
+It's important to understand that a the `Reset` component will only apply new base styles to its child components.
+
+Additionally, you can fully isolate the component with setting the `isImportant` attribute.
+
+If you actually have control over your project global styles, it's probably a better idea clean the base styles on a global level instead.
 
 ## Default usage
 
