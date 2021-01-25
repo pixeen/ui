@@ -143,6 +143,19 @@ Using `all: unset` revert all the styling to its initial value or inherent value
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
 
+| Value         | Description                | Info                                             |
+|---------------|----------------------------|--------------------------------------------------|
+| **yui2**      | Yahoo! CSS Reset (YUI 2)   | [Website](http://yui.github.io/yui2/docs/yui_2.9.0_full/reset/) |
+| **yui3**      | Yahoo! CSS Reset (YUI 3)   | [website](https://clarle.github.io/yui3/yui/docs/cssreset/) |
+| **undo**      | Tantek’s Undo HTML         | [website](https://cssdeck.com/blog/scripts/undohtml-css-tantek-celik/) |
+| **frontline** | Frontline CSS Reset        | [website](https://github.com/Threespot/frontline-css-reset) |
+| **modern**    | A Modern CSS Reset         | [website](https://piccalil.li/blog/a-modern-css-reset) |
+| **siolon**    | Siolon’s CSS Browser Reset | [website](https://www.siolon.com/blog/browser-reset-css/) |
+| **tripoli**   | Tripoli CSS Reset          | [website](https://cssdeck.com/blog/scripts/tripoli-css-reset-david-hellsing) |
+| **mini**      | Mini CSS Reset             | [website](https://jgthms.com/minireset.css/)     |
+| **doctor**    | HTML5 Doctor Reset         | [website](http://html5doctor.com/html-5-reset-stylesheet/) |
+| **clean**     | Cleanslate                 | [website](http://cleanslatecss.com/)             |
+
 
 
 
