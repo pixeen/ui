@@ -46,10 +46,10 @@ setup(React.createElement);
 * [➤ Getting Started](#-getting-started)
 * [➤ Introduction](#-introduction)
 * [➤ Default usage](#-default-usage)
+* [➤ Arguments](#-arguments)
 * [➤ Isolate your component](#-isolate-your-component)
 * [➤ Alternative resets](#-alternative-resets)
 * [➤ Use your own CSS reset](#-use-your-own-css-reset)
-* [➤ Arguments](#-arguments)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
 * [➤ Global base style cleaners](#-global-base-style-cleaners)
 * [➤ License](#-license)
@@ -77,6 +77,18 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 ```html
 <Reset>This component has a Eric Meyer's CSS reset applied</Reset>
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#arguments)
+
+## ➤ Arguments
+
+
+| Attribute       | Type    | Description                                |
+|-----------------|---------|--------------------------------------------|
+| **use**         | string  | Determine the CSS reset (default = eric)   |
+| **isImportant** | boolean | Marks all CSS reset values as `!important` |
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#isolate-your-component)
@@ -114,19 +126,7 @@ You can use various popular CSS reset base styles. The following CSS reset base 
 
 ## ➤ Use your own CSS reset
 
-Alternatively you can also use your own custom CSS reset.
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#arguments)
-
-## ➤ Arguments
-
-
-| Attribute       | Type    | Description                                |
-|-----------------|---------|--------------------------------------------|
-| **use**         | string  | Determine the CSS reset (default = eric)   |
-| **isImportant** | boolean | Marks all CSS reset values as `!important` |
-
+Alternatively you can also use your own custom CSS reset. (write more here)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-all-unset)

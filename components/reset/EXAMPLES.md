@@ -16,6 +16,10 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 <Reset>This component has a Eric Meyer's CSS reset applied</Reset>
 ```
 
+## Arguments
+
+{{ arguments }}
+
 ## Isolate your component
 
 By setting `isImportant` you enable all CSS reset values to be `!important`. This avoids having any global element styles `leaking` from their parent elements and will fully isolate your component.
@@ -38,11 +42,7 @@ You can use various popular CSS reset base styles. The following CSS reset base 
 
 ## Use your own CSS reset
 
-Alternatively you can also use your own custom CSS reset.
-
-## Arguments
-
-{{ arguments }}
+Alternatively you can also use your own custom CSS reset. (write more here)
 
 ## Why not just use all unset?
 
