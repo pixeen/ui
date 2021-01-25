@@ -29,6 +29,7 @@
 * [➤ Alternative resets](#-alternative-resets)
 * [➤ Use your own CSS reset](#-use-your-own-css-reset)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
+* [➤ Why not just iframes?](#-why-not-just-iframes)
 * [➤ Global base style cleaners](#-global-base-style-cleaners)
 * [➤ License](#-license)
 
@@ -63,7 +64,7 @@ setup(React.createElement);
 
 Usually it's solved on a `global scope` by applying a global CSS cleaner (reset,normalize,etc) and having control of the 'load order'.
 
-However, there are times when you don't have full control over the environment where your components are being used. This can lead to situations where the global element style are 'bleeding' into your component.
+However, sometimes you don't have full control off the environment where your components run. This can lead to situations where the `global scope` styles are 'bleeding' into your component.
 
 With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. Cleaning base styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment.
 
@@ -138,6 +139,13 @@ Alternatively you can also use your own custom CSS reset. (write more here)
 ## ➤ Why not just use all unset?
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-iframes)
+
+## ➤ Why not just iframes?
+
+Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#global-base-style-cleaners)
