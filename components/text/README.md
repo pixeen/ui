@@ -23,6 +23,21 @@
 
 **Install**
 
+```bash
+yarn add @pixeen/text goober
+```
+
+**Usage**
+
+```typescript jsx
+import { setup } from 'goober';
+import Reset from '@pixeen/reset'
+
+setup(React.createElement);
+
+<Reset>this</Reset>
+```
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
@@ -35,17 +50,6 @@
 <Text>Hello</Text>
 ```
 
-
-```bash
-yarn add @pixeen/text goober
-```
-
-**Usage**
-
-```typescript jsx
-import { setup } from 'goober';
-setup(React.createElement);
-```
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#license)

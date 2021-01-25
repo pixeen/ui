@@ -14,10 +14,6 @@
 
 **Install**
 
-{{ template:toc }}
-
-{{ load:EXAMPLES.md }}
-
 ```bash
 yarn add {{ pkg.name }} goober
 ```
@@ -26,7 +22,15 @@ yarn add {{ pkg.name }} goober
 
 ```typescript jsx
 import { setup } from 'goober';
+import Reset from '@pixeen/reset'
+
 setup(React.createElement);
+
+<Reset>this</Reset>
 ```
+
+{{ template:toc }}
+
+{{ load:EXAMPLES.md }}
 
 {{ template:license }}

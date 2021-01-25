@@ -23,6 +23,21 @@
 
 **Install**
 
+```bash
+yarn add @pixeen/reset goober
+```
+
+**Usage**
+
+```typescript jsx
+import { setup } from 'goober';
+import Reset from '@pixeen/reset'
+
+setup(React.createElement);
+
+<Reset>this</Reset>
+```
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
@@ -146,17 +161,6 @@ These CSS resets might be implemented in the future to use with this `Reset` com
 - **doctor**: HTML5 Doctor Reset
 - **cleanslate**: Cleanslate
 
-
-```bash
-yarn add @pixeen/reset goober
-```
-
-**Usage**
-
-```typescript jsx
-import { setup } from 'goober';
-setup(React.createElement);
-```
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#license)
