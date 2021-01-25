@@ -9,12 +9,28 @@
 </p>
 
 <p align="center">
-  <b>[WIP] Component Level CSS Reset – Cleaning your CSS base elements.</b></br>
+  <b>[WIP] Component Level CSS Reset – Cleaning your CSS basement.</b></br>
   <sub><sub>
 </p>
 
 <br />
 
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
+
+## ➤ Table of Contents
+
+* [➤ Getting Started](#-getting-started)
+* [➤ Introduction](#-introduction)
+* [➤ Default usage](#-default-usage)
+* [➤ Arguments](#-arguments)
+* [➤ Isolate your component](#-isolate-your-component)
+* [➤ Alternative resets](#-alternative-resets)
+* [➤ Use your own CSS reset](#-use-your-own-css-reset)
+* [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
+* [➤ Global base style cleaners](#-global-base-style-cleaners)
+* [➤ License](#-license)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
@@ -39,33 +55,19 @@ setup(React.createElement);
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-* [➤ Getting Started](#-getting-started)
-* [➤ Introduction](#-introduction)
-* [➤ Default usage](#-default-usage)
-* [➤ Arguments](#-arguments)
-* [➤ Isolate your component](#-isolate-your-component)
-* [➤ Alternative resets](#-alternative-resets)
-* [➤ Use your own CSS reset](#-use-your-own-css-reset)
-* [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
-* [➤ Global base style cleaners](#-global-base-style-cleaners)
-* [➤ License](#-license)
-
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#introduction)
 
 ## ➤ Introduction
 
-Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
+Cleaning your CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This [ReactJS](https://reactjs.org/) reset component can be used to define new CSS base elements on a `component scope`, instead of a traditional `global scope`. Cleaning base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment. It's important to understand that this `Reset` component will only apply new base styles to its child components.
+With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
-Optionally you can fully isolate this `Reset` component by [applying the `isImportant` attribute](#-isolate-your-component).
+It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
-If you actually have control over your project global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
+Additionally, you can isolate fully isolate your component by [passing the `isImportant` attribute](#-isolate-your-component).
+
+Keep in mind; if you actually have control over your projects global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#default-usage)
@@ -143,18 +145,21 @@ Using `all: unset` revert all the styling to its initial value or inherent value
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
 
-| Value         | Description                | Info                                             |
-|---------------|----------------------------|--------------------------------------------------|
-| **yui2**      | Yahoo! CSS Reset (YUI 2)   | [Website](http://yui.github.io/yui2/docs/yui_2.9.0_full/reset/) |
-| **yui3**      | Yahoo! CSS Reset (YUI 3)   | [website](https://clarle.github.io/yui3/yui/docs/cssreset/) |
-| **undo**      | Tantek’s Undo HTML         | [website](https://cssdeck.com/blog/scripts/undohtml-css-tantek-celik/) |
-| **frontline** | Frontline CSS Reset        | [website](https://github.com/Threespot/frontline-css-reset) |
-| **modern**    | A Modern CSS Reset         | [website](https://piccalil.li/blog/a-modern-css-reset) |
-| **siolon**    | Siolon’s CSS Browser Reset | [website](https://www.siolon.com/blog/browser-reset-css/) |
-| **tripoli**   | Tripoli CSS Reset          | [website](https://cssdeck.com/blog/scripts/tripoli-css-reset-david-hellsing) |
-| **mini**      | Mini CSS Reset             | [website](https://jgthms.com/minireset.css/)     |
-| **doctor**    | HTML5 Doctor Reset         | [website](http://html5doctor.com/html-5-reset-stylesheet/) |
-| **clean**     | Cleanslate                 | [website](http://cleanslatecss.com/)             |
+| Value         | Description                     | Info                                             |
+|---------------|---------------------------------|--------------------------------------------------|
+| **reset**     | Eric Meyer's CSS Reset          | [Website](https://meyerweb.com/eric/tools/css/reset/) |
+| **normalize** | Nicolas Gallagher Normalize.css | [website](https://necolas.github.io/normalize.css/) |
+| Value         | Description                     | Info                                             |
+| **yui2**      | Yahoo! CSS Reset (YUI 2)        | [Website](http://yui.github.io/yui2/docs/yui_2.9.0_full/reset/) |
+| **yui3**      | Yahoo! CSS Reset (YUI 3)        | [website](https://clarle.github.io/yui3/yui/docs/cssreset/) |
+| **undo**      | Tantek’s Undo HTML              | [website](https://cssdeck.com/blog/scripts/undohtml-css-tantek-celik/) |
+| **frontline** | Frontline CSS Reset             | [website](https://github.com/Threespot/frontline-css-reset) |
+| **modern**    | A Modern CSS Reset              | [website](https://piccalil.li/blog/a-modern-css-reset) |
+| **siolon**    | Siolon’s CSS Browser Reset      | [website](https://www.siolon.com/blog/browser-reset-css/) |
+| **tripoli**   | Tripoli CSS Reset               | [website](https://cssdeck.com/blog/scripts/tripoli-css-reset-david-hellsing) |
+| **mini**      | Mini CSS Reset                  | [website](https://jgthms.com/minireset.css/)     |
+| **doctor**    | HTML5 Doctor Reset              | [website](http://html5doctor.com/html-5-reset-stylesheet/) |
+| **clean**     | Cleanslate                      | [website](http://cleanslatecss.com/)             |
 
 
 

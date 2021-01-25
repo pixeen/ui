@@ -10,6 +10,8 @@
 
 {{ template:description }}
 
+{{ template:toc }}
+
 ## Getting Started
 
 **Install**
@@ -28,8 +30,6 @@ setup(React.createElement);
 
 <Reset>this</Reset>
 ```
-
-{{ template:toc }}
 
 {{ load:EXAMPLES.md }}
 

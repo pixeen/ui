@@ -1,12 +1,14 @@
 ## Introduction
 
-Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
+Cleaning your CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This [ReactJS](https://reactjs.org/) reset component can be used to define new CSS base elements on a `component scope`, instead of a traditional `global scope`. Cleaning base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment. It's important to understand that this `Reset` component will only apply new base styles to its child components.
+With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
-Optionally you can fully isolate this `Reset` component by [applying the `isImportant` attribute](#-isolate-your-component).
+It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
-If you actually have control over your project global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
+Additionally, you can isolate fully isolate your component by [passing the `isImportant` attribute](#-isolate-your-component).
+
+Keep in mind; if you actually have control over your projects global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
 ## Default usage
 
@@ -38,7 +40,7 @@ You can also use `normalize`, which is another popular CSS reset package.
 
 You can use various popular CSS reset base styles. The following CSS reset base styles are available:
 
-{{ presets }}
+{{ implementedPresets }}
 
 ## Use your own CSS reset
 
@@ -52,4 +54,4 @@ Using `all: unset` revert all the styling to its initial value or inherent value
 
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
-{{ future }}
+{{ allPresets }}

@@ -17,6 +17,14 @@
 
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
+
+## ➤ Table of Contents
+
+* [➤ Getting Started](#-getting-started)
+* [➤ License](#-license)
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
 
 ## ➤ Getting Started
@@ -37,14 +45,6 @@ setup(React.createElement);
 
 <Reset>this</Reset>
 ```
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-* [➤ Getting Started](#-getting-started)
-* [➤ License](#-license)
 
 ```html
 <Text>Hello</Text>
