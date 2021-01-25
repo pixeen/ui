@@ -27,7 +27,7 @@
 * [➤ Arguments](#-arguments)
 * [➤ Isolate your component](#-isolate-your-component)
 * [➤ Further isolate your component](#-further-isolate-your-component)
-* [➤ Alternative element styles](#-alternative-element-styles)
+* [➤ Use Normalize.css instead](#-use-normalizecss-instead)
 * [➤ Available styles](#-available-styles)
 * [➤ Bring your own styles](#-bring-your-own-styles)
 * [➤ Global CSS cleaners](#-global-css-cleaners)
@@ -113,9 +113,9 @@ By setting `isImportant` you enable all CSS reset values to be `!important` insi
 
 ## ➤ Further isolate your component
 
-In some cases you might just want to avoid `all possible` elements leak into your component. With the `isIsolated` argument you can reset all possible CSS leakage.
+In some cases you might just want to avoid `all possible` elements leak into your component. With the `isVeryImportant` argument you can reset all possible CSS leakage.
 
-**There are two downsides to this approach:**
+**There are some downsides to this approach:**
 
 1. comes with a price in terms of CSS file-size (@todo calculate).
 2. You can't bring your own `preset`, this will clean + set `!important for ALL possible CSS styles.
@@ -125,9 +125,9 @@ In some cases you might just want to avoid `all possible` elements leak into you
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#alternative-element-styles)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-normalizecss-instead)
 
-## ➤ Alternative element styles
+## ➤ Use Normalize.css instead
 
 You can also use `normalize`, which is another popular CSS reset package.
 
@@ -135,7 +135,7 @@ You can also use `normalize`, which is another popular CSS reset package.
 <Reset use="normalize">This component has Nicolas Gallagher Normalize.css applied</Reset>
 ```
 
-It's possible to use the `isImportant` attribute for any given base style.
+It's possible to use the `isImportant` attribute for any given style (including custom styles).
 
 ```html
 <Reset use="modern" isImportant>This component has Normalize.css and marked as `!important`</Reset>
