@@ -1,6 +1,6 @@
 ## Introduction
 
-Cleaning your CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
+**Cleaning your CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.**
 
 With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
