@@ -92,10 +92,11 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 ## ➤ Arguments
 
 
-| Attribute       | Type    | Description                                      |
-|-----------------|---------|--------------------------------------------------|
-| **use**         | string  | Set the CSS reset (default = __Eric Meyer's__ CSS reset) |
-| **isImportant** | boolean | Marks all CSS reset values as `!important`       |
+| Attribute           | Type    | Description                                      |
+|---------------------|---------|--------------------------------------------------|
+| **use**             | string  | Set the CSS reset (default = __Eric Meyer's__ CSS reset) |
+| **isImportant**     | boolean | Marks all CSS reset values as `!important`       |
+| **isVeryImportant** | boolean | Reset and mark ALL possible CSS values as `!important` |
 
 
 

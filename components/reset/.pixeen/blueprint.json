@@ -19,6 +19,11 @@
       "**isImportant**",
       "boolean",
       "Marks all CSS reset values as `!important`"
+    ],
+    [
+      "**isVeryImportant**",
+      "boolean",
+      "Reset and mark ALL possible CSS values as `!important`"
     ]
   ],
   "implementedPresets": [
