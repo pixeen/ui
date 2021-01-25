@@ -77,7 +77,7 @@ It's possible to set the `isImportant` argument for your own custom reset. This 
 
 ```
 <CustomReset use="reset.css">Custom rest + important</CustomReset>
-``
+```
 
 ## Global CSS cleaners
 
