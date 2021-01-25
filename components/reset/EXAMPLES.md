@@ -2,13 +2,11 @@
 
 Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-The `Reset` component is build for [ReactJS](https://reactjs.org/) and is used to define new CSS base elements on a `component level` instead of a traditional global level.
+The `Reset` component is build for [ReactJS](https://reactjs.org/) and is used to define new CSS base elements on a `component scope` instead of a traditional `global scope`. Cleaning base styles on a component scope is very useful for use-cases like widgets or other stand-alone components where you have no control over its environment. It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
-Cleaning base styles on a component level is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`. It's important to understand that this `Reset` component will only apply new base styles to its child components.
+Additionally, you can fully isolate the component and apply the `isImportant` attribute to the `Reset` component.
 
-Additionally, you can fully isolate the component and apply the `isImportant` attribute to the `Reset` component..
-
-> If you actually have control over your project global styles, it's probably a better idea clean the base styles on a global level instead.
+If you actually have control over your project global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
 ## Default usage
 
@@ -50,7 +48,7 @@ Alternatively you can also use your own custom CSS reset.
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
-## Notable projects
+## Global base style cleaners
 
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
