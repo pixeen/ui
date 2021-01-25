@@ -59,11 +59,13 @@ setup(React.createElement);
 
 ## ➤ Introduction
 
-**Cleaning your CSS base elements helps to ensure predictability and consistency in the way browsers render your components.** Usually we can solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
+**Cleaning your CSS base elements helps to ensure predictability and consistency in the way browsers render your components.**
+
+Usually we solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
 
 However, there are times when you don't have full control over the environment where your components are being used. This can have the parent element 'bleeding' it's element styles in your component.
 
-With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
+With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
 It's important to note that this component will only apply your element styles to itself and its child components.
 
