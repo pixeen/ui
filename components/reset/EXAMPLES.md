@@ -10,7 +10,7 @@ This is a small component for [ReactJS](https://reactjs.org/) where you can defi
 
 Cleaning base element styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment it runs.
 
-❗ If you have control over your global styles, it's a better idea to apply element styles on a `global scope` instead. Here's a list of the most popular [Global CSS style cleaners](#-global-base-style-cleaners) available.
+❗ If you have control over your global styles, it's a better idea to apply element styles on a `global scope` instead. Here's a list of the most popular [Global CSS style cleaners](#-global-css-cleaners) available.
 
 ## Default usage
 
@@ -61,13 +61,13 @@ It's possible to use the `isImportant` attribute for any given base style.
 
 ## Available styles
 
-You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
+The following CSS reset base styles are available
 
 {{ implementedPresets }}
 
 ## Bring your own styles
 
-Alternatively you can also use your own custom CSS reset.
+Use your own custom CSS reset
 
 ```
 <CustomReset use="../path/to/elements.css">This has a custom reset</CustomReset>
@@ -77,16 +77,18 @@ It's possible to set the `isImportant` argument for your own custom reset. This 
 
 It's not possible to set the `
 
-## Why not just use `all unset`?
-
-Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
-
-## Why not just use `iframes`?
-
-Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
-
-## Global base style cleaners
+## Global CSS cleaners
 
 These CSS resets might be implemented as options in the future.
 
 {{ allPresets }}
+
+## Why not...?
+
+**Why not just use `all unset`?**
+
+Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
+
+**Why not just use `iframes`?**
+
+Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.

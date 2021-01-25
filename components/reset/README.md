@@ -30,9 +30,8 @@
 * [➤ Alternative element styles](#-alternative-element-styles)
 * [➤ Available styles](#-available-styles)
 * [➤ Bring your own styles](#-bring-your-own-styles)
-* [➤ Why not just use `all unset`?](#-why-not-just-use-all-unset)
-* [➤ Why not just use `iframes`?](#-why-not-just-use-iframes)
-* [➤ Global base style cleaners](#-global-base-style-cleaners)
+* [➤ Global CSS cleaners](#-global-css-cleaners)
+* [➤ Why not...?](#-why-not)
 * [➤ License](#-license)
 
 
@@ -72,7 +71,7 @@ This is a small component for [ReactJS](https://reactjs.org/) where you can defi
 
 Cleaning base element styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment it runs.
 
-❗ If you have control over your global styles, it's a better idea to apply element styles on a `global scope` instead. Here's a list of the most popular [Global CSS style cleaners](#-global-base-style-cleaners) available.
+❗ If you have control over your global styles, it's a better idea to apply element styles on a `global scope` instead. Here's a list of the most popular [Global CSS style cleaners](#-global-css-cleaners) available.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#default-usage)
@@ -147,7 +146,7 @@ It's possible to use the `isImportant` attribute for any given base style.
 
 ## ➤ Available styles
 
-You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
+The following CSS reset base styles are available
 
 
 | Short         | Long                            | Info                                             |
@@ -161,7 +160,7 @@ You can use various other popular CSS reset base styles. The following CSS reset
 
 ## ➤ Bring your own styles
 
-Alternatively you can also use your own custom CSS reset.
+Use your own custom CSS reset
 
 ```
 <CustomReset use="../path/to/elements.css">This has a custom reset</CustomReset>
@@ -172,23 +171,9 @@ It's possible to set the `isImportant` argument for your own custom reset. This 
 It's not possible to set the `
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-all-unset)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#global-css-cleaners)
 
-## ➤ Why not just use `all unset`?
-
-Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-iframes)
-
-## ➤ Why not just use `iframes`?
-
-Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#global-base-style-cleaners)
-
-## ➤ Global base style cleaners
+## ➤ Global CSS cleaners
 
 These CSS resets might be implemented as options in the future.
 
@@ -208,6 +193,19 @@ These CSS resets might be implemented as options in the future.
 | **doctor**    | HTML5 Doctor Reset              | [website](http://html5doctor.com/html-5-reset-stylesheet/) |
 | **clean**     | Cleanslate                      | [website](http://cleanslatecss.com/)             |
 
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not)
+
+## ➤ Why not...?
+
+**Why not just use `all unset`?**
+
+Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
+
+**Why not just use `iframes`?**
+
+Frames are a way to achieve certain effects and/or solve certain problems in web design. Frames have some compelling advantages, but they also have some serious disadvantages. [The pros and cons of frames](https://www.mediacollege.com/internet/html/frames/pros-cons.html) is a somewhat subjective topic and this page reflects the opinions of the author, Dave Owen. Other people may have differing opinions.
 
 
 
