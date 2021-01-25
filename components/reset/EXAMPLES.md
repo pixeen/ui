@@ -22,7 +22,7 @@ By default, it will apply the __Eric Meyer's__ CSS reset.
 
 ## Isolate your component
 
-By setting `isImportant` you enable all CSS reset values to be `!important`. This avoids having any global element styles `leaking` from their parent elements and will fully isolate your component.
+By setting `isImportant` you enable all CSS reset values to be `!important` inside the `component scope`. This avoids having any global element styles `leaking` from their parent elements and as a result fully isolates your component.
 
 ```html
 <Reset isImportant>This box has all reset values set to `!important`</Reset>
