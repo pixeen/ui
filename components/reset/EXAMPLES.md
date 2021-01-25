@@ -12,7 +12,7 @@ Cleaning base element styles on a `component scope` is very useful for stand-alo
 
 This component will only apply defined element styles to itself + all of its child components. It will not fully prevent you from unwillingly getting element styles from the parent component. You can protect your component from that by providing [the `isImportant` attribute](#-isolate-your-component). There is also the `isVeryImportant` which will reset all possible CSS styles but it comes with a cost.
 
-❗ If you actually have control over your projects global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
+❗ If you actually have control over your projects global styles, it's probably a better idea to clean on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
 ## Default usage
 
