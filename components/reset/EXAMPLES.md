@@ -4,25 +4,17 @@ Applying a CSS reset is beneficial to ensure predictability and consistency in t
 
 This CSS Reset component is used to reset the CSS styling on a `component level` instead of a global level. This is very useful for use-cases like widgets or other stand-alone components.
 
-Keep in mind, this is a `component level` reset and these styles will only apply to it's children. If you actually have full control over the website global styles it's probably a better idea to apply a global CSS reset.
+The major difference is this `component level` reset will only apply a reset to its children components.
 
-## Usage
+If you actually have control over your project global styles it's probably a better idea use a global CSS reset instead.
+
+## Default usage
 
 By default, it will apply the __Eric Meyer's__ CSS reset.
 
 ```html
 <Reset>This component has a Eric Meyer's CSS reset applied</Reset>
 ```
-
-## Alternative presets
-
-```html
-<Reset use="normalize">This component has Nicolas Gallagher Normalize.css applied</Reset>
-```
-
-You can select between various popular CSS reset base styles, the following CSS reset base styles are available:
-
-{{ presets }}
 
 ## Isolate your component
 
@@ -31,6 +23,18 @@ By setting `isImportant` you enable all CSS reset values to be `!important`. Thi
 ```html
 <Reset isImportant>This box has all reset values set to `!important`</Reset>
 ```
+
+## Alternative resets
+
+You can also use `normalize`, which is another popular CSS reset package.
+
+```html
+<Reset use="normalize">This component has Nicolas Gallagher Normalize.css applied</Reset>
+```
+
+You can use various popular CSS reset base styles. The following CSS reset base styles are available:
+
+{{ presets }}
 
 ## Use your own CSS reset
 
