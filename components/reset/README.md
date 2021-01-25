@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>[WIP] Component Level CSS Reset – Cleaning your CSS property values.</b></br>
+  <b>[WIP] Component Level CSS Reset – Cleaning your CSS base elements.</b></br>
   <sub><sub>
 </p>
 
@@ -22,12 +22,13 @@
 ## ➤ Table of Contents
 
 * [➤ Introduction](#-introduction)
-* [➤ Usage](#-usage)
-* [➤ Use a different CSS reset](#-use-a-different-css-reset)
-* [➤ Is important CSS reset](#-is-important-css-reset)
+* [➤ Default usage](#-default-usage)
+* [➤ Isolate your component](#-isolate-your-component)
+* [➤ Alternative resets](#-alternative-resets)
+* [➤ Use your own CSS reset](#-use-your-own-css-reset)
 * [➤ Arguments](#-arguments)
-* [➤ Why not just unset?](#-why-not-just-unset)
-* [➤ Other popular CSS reset base stylings](#-other-popular-css-reset-base-stylings)
+* [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
+* [➤ Notable projects](#-notable-projects)
 * [➤ Getting Started](#-getting-started)
 * [➤ License](#-license)
 
@@ -36,49 +37,66 @@
 
 ## ➤ Introduction
 
-Applying a CSS reset is beneficial to ensure predictability and consistency in the way browsers render your components.
+Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-This CSS Reset component is used to reset the styling on a `component level`. This is usefull it for use-cases like widgets or other stand-alone components.
+This `Reset` component is used to define new CSS base elements on a `component level` instead of a global level.
 
-Keep in mind, this is a `component level` reset and these styles will only apply to it's children. If you actually have full control over the website global styles it's probably a better idea to apply a global CSS reset.
+This is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`.
+
+It's important to understand that this `Reset` component will only apply new base styles to its child components.
+
+Additionally, you can fully isolate the component with setting the `isImportant` attribute.
+
+If you actually have control over your project global styles, it's probably a better idea clean the base styles on a global level instead.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#usage)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#default-usage)
 
-## ➤ Usage
+## ➤ Default usage
 
 By default, it will apply the __Eric Meyer's__ CSS reset.
 
 ```html
-<Reset>This box has a __Eric Meyer's__ CSS reset</Reset>
+<Reset>This component has a Eric Meyer's CSS reset applied</Reset>
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-a-different-css-reset)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#isolate-your-component)
 
-## ➤ Use a different CSS reset
+## ➤ Isolate your component
 
-```html
-<Reset use="normalize">This box has a __Normalize__ reset</Reset>
-```
-
-You can select between various popular CSS reset base styles, the following CSS reset base styles are available:
-
-@ todo make this a column.
-- **reset**: Eric Meyer CSS Reset (default)
-- **normalize**: Normalize CSS
-- **cleanslate**: Cleanslate
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#is-important-css-reset)
-
-## ➤ Is important CSS reset
-
-You can enable all CSS reset values as `!important` to fully isolate the component. This avoids having any global element styles `leaking` from their parent elements.
+By setting `isImportant` you enable all CSS reset values to be `!important`. This avoids having any global element styles `leaking` from their parent elements and will fully isolate your component.
 
 ```html
 <Reset isImportant>This box has all reset values set to `!important`</Reset>
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#alternative-resets)
+
+## ➤ Alternative resets
+
+You can also use `normalize`, which is another popular CSS reset package.
+
+```html
+<Reset use="normalize">This component has Nicolas Gallagher Normalize.css applied</Reset>
+```
+
+You can use various popular CSS reset base styles. The following CSS reset base styles are available:
+
+
+| Value         | Description                     | Info                                             |
+|---------------|---------------------------------|--------------------------------------------------|
+| **reset**     | Eric Meyer's CSS Reset          | [Website](https://meyerweb.com/eric/tools/css/reset/) |
+| **normalize** | Nicolas Gallagher Normalize.css | [website](https://necolas.github.io/normalize.css/) |
+
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#use-your-own-css-reset)
+
+## ➤ Use your own CSS reset
+
+Alternatively you can also use your own custom CSS reset.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#arguments)
@@ -93,18 +111,18 @@ You can enable all CSS reset values as `!important` to fully isolate the compone
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-unset)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#why-not-just-use-all-unset)
 
-## ➤ Why not just unset?
+## ➤ Why not just use all unset?
 
 Using `all: unset` revert all the styling to its initial value or inherent value, and both of these values can render a component different depending on the browsers.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#other-popular-css-reset-base-stylings)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#notable-projects)
 
-## ➤ Other popular CSS reset base stylings
+## ➤ Notable projects
 
-These CSS resets might be implemented in the future.
+These CSS resets might be implemented in the future to use with this `Reset` component.
 
 - **yui2**: Yahoo! CSS Reset (YUI 2)
 - **yui3**: Yahoo! CSS Reset (YUI 3)
@@ -121,6 +139,7 @@ These CSS resets might be implemented in the future.
 - **vanilla**: Vanilla CSS Reset
 - **mini**: Mini CSS Reset
 - **doctor**: HTML5 Doctor Reset
+- **cleanslate**: Cleanslate
 
 
 

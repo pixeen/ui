@@ -6,7 +6,7 @@ This `Reset` component is used to define new CSS base elements on a `component l
 
 This is very useful for use-cases like widgets or other stand-alone components where you have no control over it's `runtime`.
 
-It's important to understand that a the `Reset` component will only apply new base styles to its child components.
+It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
 Additionally, you can fully isolate the component with setting the `isImportant` attribute.
 
