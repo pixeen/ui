@@ -4,13 +4,11 @@
 
 Usually we solve this on a `global scope` by applying styles in a specific order and load a global CSS cleaner (reset,normalize,etc).
 
-However, there are times when you don't have full control over the environment where your components are being used. This can lead to situations where the global element style are unwillingly 'bleeding' into your component.
+However, there are times when you don't have full control over the environment where your components are being used. This can lead to situations where the global element style are 'bleeding' into your component.
 
-With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
+With this very small stand-alone [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. Cleaning base styles on a `component scope` is very useful for stand-alone components such as widgets, or other cases where you don't have full control over the environment.
 
-It's important to note that this component will only apply your element styles to itself and its child components.
-
-Additionally, you can protect your component even more and prevent it from bleeding parent styles. You can do that by providing [the `isImportant` attribute](#-isolate-your-component).
+It's important to note that this component will only apply your element styles to itself and its child components, it will not fully prevent you from unwillingly getting element styles from the parent component. You can protect your component from that by providing [the `isImportant` attribute](#-isolate-your-component).
 
 If you actually have control over your projects global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
