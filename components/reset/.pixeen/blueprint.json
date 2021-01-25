@@ -23,8 +23,8 @@
   ],
   "implementedPresets": [
     [
-      "Value",
-      "Description",
+      "Short",
+      "Long",
       "Info"
     ],
     [
@@ -40,8 +40,8 @@
   ],
   "allPresets": [
     [
-      "Value",
-      "Description",
+      "Short",
+      "Long",
       "Info"
     ],
     [
@@ -53,11 +53,6 @@
       "**normalize**",
       "Nicolas Gallagher Normalize.css",
       "[website](https://necolas.github.io/normalize.css/)"
-    ],
-    [
-      "Value",
-      "Description",
-      "Info"
     ],
     [
       "**yui2**",

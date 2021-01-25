@@ -143,7 +143,7 @@ It's possible to use the `isImportant` attribute for any given base style.
 You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
 
-| Value         | Description                     | Info                                             |
+| Short         | Long                            | Info                                             |
 |---------------|---------------------------------|--------------------------------------------------|
 | **reset**     | Eric Meyer's CSS Reset          | [Website](https://meyerweb.com/eric/tools/css/reset/) |
 | **normalize** | Nicolas Gallagher Normalize.css | [website](https://necolas.github.io/normalize.css/) |
@@ -186,11 +186,10 @@ Frames are a way to achieve certain effects and/or solve certain problems in web
 These CSS resets might be implemented in the future to use with this `Reset` component.
 
 
-| Value         | Description                     | Info                                             |
+| Short         | Long                            | Info                                             |
 |---------------|---------------------------------|--------------------------------------------------|
 | **reset**     | Eric Meyer's CSS Reset          | [Website](https://meyerweb.com/eric/tools/css/reset/) |
 | **normalize** | Nicolas Gallagher Normalize.css | [website](https://necolas.github.io/normalize.css/) |
-| Value         | Description                     | Info                                             |
 | **yui2**      | Yahoo! CSS Reset (YUI 2)        | [Website](http://yui.github.io/yui2/docs/yui_2.9.0_full/reset/) |
 | **yui3**      | Yahoo! CSS Reset (YUI 3)        | [website](https://clarle.github.io/yui3/yui/docs/cssreset/) |
 | **undo**      | Tantek’s Undo HTML              | [website](https://cssdeck.com/blog/scripts/undohtml-css-tantek-celik/) |
