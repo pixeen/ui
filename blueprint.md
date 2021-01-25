@@ -10,13 +10,13 @@
 
 {{ template:description }}
 
-{{ template:toc }}
-
-{{ load:EXAMPLES.md }}
-
 ## Getting Started
 
 **Install**
+
+{{ template:toc }}
+
+{{ load:EXAMPLES.md }}
 
 ```bash
 yarn add {{ pkg.name }} goober

@@ -17,6 +17,13 @@
 
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
+
+## ➤ Getting Started
+
+**Install**
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
 ## ➤ Table of Contents
@@ -28,13 +35,6 @@
 <Text>Hello</Text>
 ```
 
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
-
-## ➤ Getting Started
-
-**Install**
 
 ```bash
 yarn add @pixeen/text goober

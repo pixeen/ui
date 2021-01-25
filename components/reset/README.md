@@ -17,10 +17,18 @@
 
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
+
+## ➤ Getting Started
+
+**Install**
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
 ## ➤ Table of Contents
 
+* [➤ Getting Started](#-getting-started)
 * [➤ Introduction](#-introduction)
 * [➤ Default usage](#-default-usage)
 * [➤ Isolate your component](#-isolate-your-component)
@@ -29,7 +37,6 @@
 * [➤ Arguments](#-arguments)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
 * [➤ Notable projects](#-notable-projects)
-* [➤ Getting Started](#-getting-started)
 * [➤ License](#-license)
 
 
@@ -141,13 +148,6 @@ These CSS resets might be implemented in the future to use with this `Reset` com
 - **doctor**: HTML5 Doctor Reset
 - **cleanslate**: Cleanslate
 
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#getting-started)
-
-## ➤ Getting Started
-
-**Install**
 
 ```bash
 yarn add @pixeen/reset goober
