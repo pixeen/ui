@@ -61,9 +61,9 @@ setup(React.createElement);
 
 Defining new CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.
 
-The `Reset` component is build for [ReactJS](https://reactjs.org/) and is used to define new CSS base elements on a `component scope` instead of a traditional `global scope`. Cleaning base styles on a component scope is very useful for use-cases like widgets or other stand-alone components where you have no control over its environment. It's important to understand that this `Reset` component will only apply new base styles to its child components.
+This [ReactJS](https://reactjs.org/) reset component can be used to define new CSS base elements on a `component scope`, instead of a traditional `global scope`. Cleaning base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment. It's important to understand that this `Reset` component will only apply new base styles to its child components.
 
-Additionally, you can fully isolate the component and apply the `isImportant` attribute to the `Reset` component.
+Optionally you can fully isolate this `Reset` component by [applying the `isImportant` attribute](#-isolate-your-component).
 
 If you actually have control over your project global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
