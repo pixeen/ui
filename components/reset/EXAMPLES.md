@@ -61,6 +61,8 @@ It's possible to use the `isImportant` attribute for any given base style.
 <Reset use="modern" isImportant>This component has Nicolas Gallagher Normalize.css applied and marked as `!important`</Reset>
 ```
 
+## Available base styles
+
 You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
 {{ implementedPresets }}

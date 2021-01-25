@@ -28,6 +28,7 @@
 * [➤ Isolate your component](#-isolate-your-component)
 * [➤ Further isolate your component](#-further-isolate-your-component)
 * [➤ Alternative element styles](#-alternative-element-styles)
+* [➤ Available base styles](#-available-base-styles)
 * [➤ Bring your own element styles](#-bring-your-own-element-styles)
 * [➤ Why not just use all unset?](#-why-not-just-use-all-unset)
 * [➤ Why not just iframes?](#-why-not-just-iframes)
@@ -142,6 +143,11 @@ It's possible to use the `isImportant` attribute for any given base style.
 ```html
 <Reset use="modern" isImportant>This component has Nicolas Gallagher Normalize.css applied and marked as `!important`</Reset>
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#available-base-styles)
+
+## ➤ Available base styles
 
 You can use various other popular CSS reset base styles. The following CSS reset base styles are available:
 
