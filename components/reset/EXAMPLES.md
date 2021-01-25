@@ -1,12 +1,15 @@
 ## Introduction
 
-**Cleaning your CSS base elements is beneficial to ensure predictability and consistency in the way browsers render your components.**
+**Cleaning your CSS base elements in general is helps to ensure predictability and consistency in the way browsers render your components.**
+
+However, there are times when you don't have full control over the environment where your components are being used.
 
 With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
+
 It's important to note that this component will only apply styles to itself and its child components.
 
-Additionally, you can isolate fully isolate your component by [passing the `isImportant` attribute](#-isolate-your-component).
+Additionally, isolate your component even more and protect it from bleeding parent styles. You can do that by providing [the `isImportant` attribute](#-isolate-your-component).
 
 Keep in mind; if you actually have control over your projects global styles, it's probably a better idea clean the base styles on a `global scope` instead. Here's a list of the most popular global [CSS base element cleaners](#-global-base-style-cleaners) available.
 
