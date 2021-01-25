@@ -63,7 +63,7 @@ Cleaning your CSS base elements is beneficial to ensure predictability and consi
 
 With this small [ReactJS](https://reactjs.org/) component you can define new CSS base elements on a `component scope`, where a traditional the base elements should be cleaned on a `global scope`. However cleaning these base styles on a `component scope` is useful for stand-alone components, such as widgets, or other scenarios where you don't have full control over its environment.
 
-It's important to understand that this `Reset` component will only apply new base styles to its child components.
+It's important to note that this component will only apply styles to itself and its child components.
 
 Additionally, you can isolate fully isolate your component by [passing the `isImportant` attribute](#-isolate-your-component).
 
