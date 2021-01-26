@@ -9,9 +9,7 @@
     "reset"
   ],
   "scripts": {
-    "test": "jest --colors --coverage --coverageDirectory .pixeen/coverage",
-    "clean": "yarn clean:coverage && yarn clean:dist && yarn clean:buildinfo",
-    "clean:coverage": "rimraf ./.pixeen/coverage",
+    "clean": "yarn clean:dist && yarn clean:buildinfo",
     "clean:dist": "rimraf dist -rf",
     "clean:buildinfo": "rimraf -rf .pixeen/tsconfig.build.tsbuildinfo",
     "watch": "yarn build:js --watch",
